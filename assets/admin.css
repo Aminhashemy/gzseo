@@ -1,0 +1,1987 @@
+/* GZ SEO Admin Styles */
+@font-face {
+    font-family: 'Yekan';
+    src: url('../assets/fonts/Vazir.eot');
+    src: url('../assets/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Vazir.woff2') format('woff2'),
+         url('../assets/fonts/Vazir.woff') format('woff'),
+         url('../assets/fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --gzseo-primary: #2196F3;
+    --gzseo-secondary: #673AB7;
+    --gzseo-success: #4CAF50;
+    --gzseo-danger: #F44336;
+    --gzseo-warning: #FF9800;
+    --gzseo-info: #00BCD4;
+    --gzseo-dark: #333;
+    --gzseo-gray: #666;
+    --gzseo-light-gray: #999;
+    --gzseo-bg-light: #F5F5F5;
+    --gzseo-border: #E0E0E0;
+}
+
+/* Main Container */
+
+.gzseo-wrap {
+    /*margin: 20px 0 20px -20px; /* تغییر margin برای عرض کامل */
+	margin : 20px 15px;
+    font-family: 'Yekan', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.gzseo-wrap * {
+    font-family: 'Yekan', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.gzseo-wrap h1, .gzseo-wrap h2,.gzseo-wrap h3,.gzseo-wrap h4,.gzseo-wrap h5,.gzseo-wrap h6{
+    font-family: 'Yekan', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.gzseo-help-popup h1, .gzseo-help-popup h2,.gzseo-help-popup h3,.gzseo-help-popup h4,.gzseo-help-popup h5,.gzseo-help-popup h6{
+    font-family: 'Yekan', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.gzseo-container {
+    display: flex;
+    gap: 20px;
+    max-width: 100%; /* تغییر از 1400px به 100% */
+    margin: 0;
+    /*padding: 0 20px;*/
+}
+
+/* Sidebar */
+.gzseo-sidebar {
+    width: 280px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.gzseo-sidebar-header {
+    background: linear-gradient(135deg, var(--gzseo-primary) 0%, var(--gzseo-secondary) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+
+.gzseo-sidebar-header-left i {
+    font-size: 36px;
+}
+
+.gzseo-sidebar-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.gzseo-sidebar-version {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+/* Menu Items */
+.gzseo-menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: var(--gzseo-dark);
+    transition: all 0.3s ease;
+    position: relative;
+    border-right: 3px solid transparent;
+}
+
+.gzseo-menu-item:hover {
+    background: var(--gzseo-bg-light);
+    text-decoration: none;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-menu-item.active {
+    background: var(--gzseo-bg-light);
+    border-right-color: var(--gzseo-primary);
+}
+
+.gzseo-menu-icon {
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--gzseo-gray);
+    transition: all 0.3s ease;
+}
+
+.gzseo-menu-item.active .gzseo-menu-icon {
+    color: var(--gzseo-primary);
+}
+
+.gzseo-menu-item:hover .gzseo-menu-icon {
+    transform: scale(1.1);
+}
+
+.gzseo-menu-content {
+    flex: 1;
+}
+
+.gzseo-menu-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.gzseo-menu-desc {
+    font-size: 12px;
+    color: var(--gzseo-light-gray);
+}
+
+/* Content Area */
+.gzseo-content {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.gzseo-content-header {
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--gzseo-border);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.gzseo-header-icon {
+    color: var(--gzseo-gray);
+    font-size: 24px;
+}
+
+.gzseo-header-title {
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-header-action a {
+    color: var(--gzseo-primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+.gzseo-header-action a:hover {
+    opacity: 0.8;
+}
+
+.gzseo-content-body {
+    padding: 30px;
+}
+
+/* Tab Content */
+.gzseo-tab-content {
+    display: none;
+}
+
+.gzseo-tab-content.active {
+    display: block;
+}
+
+/* Dashboard Specific */
+.gzseo-dashboard-box {
+    border: 1px solid var(--gzseo-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.gzseo-dashboard-text {
+    flex: 1;
+}
+
+.gzseo-dashboard-text h3 {
+    margin-top: 0;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-dashboard-text ul {
+    list-style: disc;
+    margin-right: 20px;
+}
+
+.gzseo-dashboard-video {
+    width: 400px;
+}
+
+.gzseo-dashboard-links {
+    border: 1px solid var(--gzseo-border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.gzseo-dashboard-links img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Forms */
+.gzseo-form-group {
+    margin-bottom: 20px;
+}
+
+.gzseo-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-input,
+.gzseo-select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid var(--gzseo-border);
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.gzseo-input:focus,
+.gzseo-select:focus {
+    border-color: var(--gzseo-primary);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+/* Buttons */
+.gzseo-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gzseo-btn-primary {
+    background: var(--gzseo-primary);
+    color: #fff;
+}
+
+.gzseo-btn-primary:hover {
+    background: #1976D2;
+}
+
+.gzseo-btn-purple {
+    background: var(--gzseo-secondary);
+    color: #fff;
+}
+
+.gzseo-btn-purple:hover {
+    background: #512DA8;
+}
+
+.gzseo-btn-danger {
+    background: var(--gzseo-danger);
+    color: #fff;
+}
+
+.gzseo-btn-danger:hover {
+    background: #D32F2F;
+}
+
+.gzseo-btn-outline {
+    background: #fff;
+    color: var(--gzseo-secondary);
+    border: 1px solid var(--gzseo-secondary);
+}
+
+.gzseo-btn-outline:hover {
+    background: var(--gzseo-secondary);
+    color: #fff;
+}
+
+/* Alerts */
+.gzseo-alert {
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gzseo-alert-success {
+    background: #E8F5E9;
+    color: #2E7D32;
+}
+
+.gzseo-alert i {
+    font-size: 20px;
+}
+
+.gzseo-text-muted {
+    color: var(--gzseo-gray);
+    font-size: 14px;
+}
+
+/* AI Section */
+.gzseo-ai-intro {
+    background: #EDE7F6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.gzseo-ai-intro i {
+    color: #5E35B1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gzseo-ai-intro h4 {
+    margin: 10px 0;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-ai-auth {
+    background: var(--gzseo-bg-light);
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+}
+
+.gzseo-tabs {
+    display: flex;
+}
+
+.gzseo-tab-btn {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    background: var(--gzseo-primary);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gzseo-tab-btn.active {
+    background: var(--gzseo-secondary);
+}
+
+.gzseo-tab-panel {
+    display: none;
+    padding: 30px;
+}
+
+.gzseo-tab-panel.active {
+    display: block;
+}
+
+/* AI Status */
+.gzseo-ai-status {
+    background: #EDE7F6;
+    border: 1px solid #9575CD;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gzseo-ai-status-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-ai-status-left i {
+    background: #fff;
+    color: var(--gzseo-secondary);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gzseo-ai-status-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.gzseo-ai-status-right span {
+    color: var(--gzseo-gray);
+}
+
+/* AI Purchase */
+.gzseo-ai-purchase {
+    background: var(--gzseo-secondary);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* AI Packages */
+.gzseo-ai-packages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gzseo-package {
+    background: #EDE7F6;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+}
+
+.gzseo-package-title {
+    background: var(--gzseo-secondary);
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.gzseo-package-words,
+.gzseo-package-price {
+    padding: 15px 0;
+    border-bottom: 1px solid #D1C4E9;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-package .gzseo-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Bulk Update */
+.gzseo-bulk-update-item {
+    background: var(--gzseo-bg-light);
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gzseo-remove-item {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px 15px;
+    font-size: 13px;
+}
+
+.gzseo-bulk-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Config Tabs */
+.gzseo-config-tabs {
+    display: flex;
+    margin: 0px -30px 0;
+	gap:10px;
+}
+
+.gzseo-config-tab {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    background: var(--gzseo-primary);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.gzseo-config-tab.active {
+    background: var(--gzseo-secondary);
+}
+
+.gzseo-config-content {
+    margin-top: 30px;
+}
+
+.gzseo-config-panel {
+    display: none;
+}
+
+.gzseo-config-panel.active {
+    display: block;
+}
+
+.gzseo-config-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.gzseo-config-col h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--gzseo-dark);
+}
+
+.gzseo-config-col p {
+    color: var(--gzseo-gray);
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+.gzseo-table-styles {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.gzseo-table-style {
+    border: 1px solid var(--gzseo-border);
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gzseo-table-style:hover {
+    border-color: var(--gzseo-primary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gzseo-table-style.active {
+    border-color: var(--gzseo-primary);
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.gzseo-table-style img {
+    width: 100%;
+    height: auto;
+}
+
+.gzseo-custom-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.gzseo-custom-style i {
+    font-size: 36px;
+    color: var(--gzseo-gray);
+}
+
+/* Color Settings */
+.gzseo-color-settings {
+    background: var(--gzseo-bg-light);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.gzseo-color-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.gzseo-color-group label {
+    min-width: 100px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.gzseo-color-group input[type="color"] {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--gzseo-border);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Table Preview */
+.gzseo-table-preview {
+    border: 1px solid var(--gzseo-border);
+    border-radius: 8px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.gzseo-table-preview table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gzseo-table-preview th,
+.gzseo-table-preview td {
+    padding: 12px;
+    text-align: right;
+    border: 1px solid var(--gzseo-border);
+}
+
+.gzseo-table-preview th {
+    background: var(--gzseo-primary);
+    color: #fff;
+    font-weight: 500;
+}
+
+.gzseo-table-preview tr:nth-child(odd) td {
+    background: var(--gzseo-bg-light);
+}
+
+/* Divider */
+.gzseo-divider {
+    border: none;
+    border-top: 1px solid var(--gzseo-border);
+    margin: 30px 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+	.gzseo-container {
+        padding: 0 15px;
+    }
+
+    .gzseo-ai-packages {
+        grid-template-columns: 1fr;
+    }
+    
+    .gzseo-config-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .gzseo-dashboard-box {
+        flex-direction: column;
+    }
+    
+    .gzseo-dashboard-video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gzseo-container {
+        flex-direction: column;
+    }
+    
+    .gzseo-sidebar {
+        width: 100%;
+    }
+    
+    .gzseo-table-styles {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Loading */
+.gzseo-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: gzseo-spin 1s ease-in-out infinite;
+}
+
+@keyframes gzseo-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Animations */
+.gzseo-fade-in {
+    animation: gzseo-fadeIn 0.3s ease-in;
+}
+
+@keyframes gzseo-fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tooltips */
+.gzseo-tooltip {
+    position: relative;
+}
+
+.gzseo-tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    background: var(--gzseo-dark);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+/* RTL Support */
+.rtl .gzseo-menu-item {
+    border-right: none;
+    border-left: 3px solid transparent;
+}
+
+.rtl .gzseo-menu-item.active {
+    border-left-color: var(--gzseo-primary);
+}
+
+.rtl .gzseo-dashboard-text ul {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+/* Help Guide Popup */
+.gzseo-help-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    max-width: 600px;
+    width: 90%;
+    z-index: 9999;
+    display: none;
+}
+
+.gzseo-help-popup.active {
+    display: block;
+}
+
+.gzseo-help-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gzseo-help-popup-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--gzseo-gray);
+}
+
+.gzseo-help-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9998;
+    display: none;
+}
+
+.gzseo-help-popup-overlay.active {
+    display: block;
+}
+
+/* Search Console Advanced Panel */
+#gzseo-advanced-panel {
+    background: var(--gzseo-bg-light);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Success/Error Messages */
+.gzseo-message {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.gzseo-message.success {
+    background: #E8F5E9;
+    color: #2E7D32;
+    border: 1px solid #4CAF50;
+}
+
+.gzseo-message.error {
+    background: #FFEBEE;
+    color: #C62828;
+    border: 1px solid #F44336;
+}
+
+/* Bulk Update Item Hover */
+.gzseo-bulk-update-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Config Tab First/Last Child Radius */
+.gzseo-config-tab:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.gzseo-config-tab:last-child {
+    border-radius: 8px 8px 0 0;
+}
+
+/* Print Styles */
+@media print {
+    .gzseo-sidebar,
+    .gzseo-header-action,
+    .gzseo-btn {
+        display: none !important;
+    }
+    
+    .gzseo-content {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
+
+
+/* Bulk Update Inline Layout */
+.gzseo-bulk-update-item {
+    background: var(--gzseo-bg-light);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gzseo-bulk-update-fields {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.gzseo-bulk-update-fields .gzseo-form-group {
+    margin-bottom: 0;
+    flex: 1;
+    min-width: 150px;
+}
+
+.gzseo-bulk-update-fields .gzseo-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: var(--gzseo-gray);
+}
+
+.gzseo-bulk-update-checkboxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--gzseo-border);
+}
+
+.gzseo-bulk-update-checkboxes label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.gzseo-remove-item {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 12px;
+    font-size: 12px;
+}
+
+/* GZ SEO Metabox Styles */
+.gzseo-metabox-wrapper {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.gzseo-metabox-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.gzseo-metabox-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.gzseo-metabox-credits {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+.gzseo-credits-amount {
+    font-weight: bold;
+    color: #2271b1;
+}
+
+/* Tabs */
+.gzseo-metabox-tabs {
+    display: flex;
+    background: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.gzseo-metabox-tab {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.gzseo-metabox-tab:hover {
+    background: #e8e8e8;
+    color: #000;
+}
+
+.gzseo-metabox-tab.active {
+    color: #2271b1;
+    border-bottom-color: #2271b1;
+    background: #fff;
+}
+
+/* Content Area */
+.gzseo-metabox-content {
+    padding: 20px;
+}
+
+.gzseo-metabox-panel {
+    display: none;
+}
+
+.gzseo-metabox-panel.active {
+    display: block;
+}
+
+/* Content Update Row */
+.gzseo-content-update-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gzseo-content-update-fields {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+}
+
+.gzseo-inline-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.gzseo-inline-field label {
+    font-size: 13px;
+    color: #555;
+    font-weight: 500;
+}
+
+.gzseo-inline-field input {
+    width: 120px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.gzseo-content-update-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.gzseo-content-update-actions .button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Preview Box */
+.gzseo-preview-box {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.gzseo-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.gzseo-preview-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+}
+
+.gzseo-preview-content {
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+    line-height: 1.6;
+}
+
+/* Loading State */
+.gzseo-loading-overlay {
+    position: relative;
+}
+
+.gzseo-loading-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* AI Notification styles */
+.gzseo-ai-notification {
+    animation: slideInRight 0.3s ease;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Loading state for buttons */
+.gzseo-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Error message styles */
+.gzseo-form-error {
+    color: #dc3545;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Search Keywords Styles */
+#gzseo-search-keywords-wrapper {
+    margin-top: 10px;
+}
+
+.gzseo-search-keywords-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+.gzseo-keywords-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gzseo-keywords-header h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.gzseo-keywords-help {
+    font-size: 11px;
+    color: #666;
+}
+
+.gzseo-keywords-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.gzseo-keyword-item {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 12px;
+}
+
+.gzseo-keyword-item:hover {
+    background: #f0f0f0;
+    border-color: #2196F3;
+}
+
+.gzseo-keyword-text {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.gzseo-keyword-stats {
+    display: flex;
+    gap: 8px;
+    font-size: 10px;
+    color: #666;
+}
+
+.gzseo-stat {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.gzseo-stat i {
+    font-size: 9px;
+}
+
+.gzseo-keyword-item.gzseo-keyword-added {
+    background: #4CAF50 !important;
+    color: #fff !important;
+    border-color: #4CAF50 !important;
+}
+
+.gzseo-keyword-item.gzseo-keyword-added .gzseo-keyword-text,
+.gzseo-keyword-item.gzseo-keyword-added .gzseo-keyword-stats,
+.gzseo-keyword-item.gzseo-keyword-added .gzseo-stat {
+    color: #fff !important;
+}
+
+.gzseo-keyword-item.gzseo-keyword-exists {
+    background: #ff9800 !important;
+    color: #fff !important;
+    border-color: #ff9800 !important;
+}
+
+.gzseo-keyword-item.gzseo-keyword-exists .gzseo-keyword-text,
+.gzseo-keyword-item.gzseo-keyword-exists .gzseo-keyword-stats,
+.gzseo-keyword-item.gzseo-keyword-exists .gzseo-stat {
+    color: #fff !important;
+}
+
+.gzseo-loading-keywords {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+}
+
+.gzseo-no-keywords {
+    text-align: center;
+    padding: 15px;
+    color: #999;
+    font-size: 12px;
+}
+
+/****************************** table dashboard css ****************************/
+
+/* دکمه ذخیره تنظیمات استایل جدول */
+.gzseo-table-save-button {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    /*text-align: left;*/
+}
+
+#gzseo-save-table-styles {
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+/* بهبود نمایش پیش‌نمایش جدول */
+.gzseo-table-preview {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.gzseo-table-preview table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.gzseo-table-preview table th,
+.gzseo-table-preview table td {
+    padding: 12px 15px;
+    text-align: right;
+    border: 1px solid #ddd;
+}
+
+.gzseo-table-preview table th {
+    font-weight: bold;
+}
+
+/* انیمیشن برای نمایش موفقیت */
+.gzseo-success-animation {
+    animation: successPulse 0.5s ease-in-out;
+}
+
+@keyframes successPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* استایل انتخاب قالب جدول */
+.gzseo-table-style.active {
+    border-color: #4e4b83;
+    box-shadow: 0 0 0 3px rgba(78, 75, 131, 0.2);
+}
+
+.gzseo-table-style:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* بهبود نمایش تنظیمات رنگ */
+.gzseo-color-settings {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.gzseo-color-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.gzseo-color-group label {
+    min-width: 120px;
+    font-weight: 500;
+}
+
+.gzseo-color-group input[type="color"] {
+    width: 50px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gzseo-color-group input[type="color"]:hover {
+    border-color: #4e4b83;
+}
+
+/* پیام‌های موفقیت/خطا */
+.gzseo-message {
+    padding: 12px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    animation: slideInDown 0.3s ease-out;
+}
+
+.gzseo-message.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.gzseo-message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/************************************ bulk update styles ***********************************/
+/* Bulk Update Styles */
+#gzseo-bulk-update-container .gzseo-bulk-update-taxonomies {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    min-height: 50px;
+}
+
+#gzseo-bulk-update-container .gzseo-taxonomy-group {
+    margin-bottom: 20px;
+}
+
+#gzseo-bulk-update-container .gzseo-taxonomy-group h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+#gzseo-bulk-update-container .gzseo-taxonomy-group label {
+    /*display: block;*/
+    margin: 5px 0px 5px 5px;
+    cursor: pointer;
+}
+
+#gzseo-bulk-update-container .gzseo-taxonomy-group input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+#gzseo-saved-bulk-items .gzseo-saved-item {
+    background: #f0f0f0;
+    border: 2px solid #ddd;
+    position: relative;
+}
+
+#gzseo-saved-bulk-items .gzseo-saved-item .gzseo-btn {
+    position: absolute;
+    top: 10px;
+}
+
+#gzseo-saved-bulk-items .gzseo-saved-item .gzseo-remove-saved-item {
+    left: 10px;
+}
+
+#gzseo-saved-bulk-items .gzseo-saved-item .gzseo-edit-saved-item {
+    left: 70px;
+}
+
+#gzseo-saved-bulk-items .gzseo-new-item {
+    background: #fff;
+    border: 2px solid #4e4b83;
+}
+
+#gzseo-saved-bulk-items .gzseo-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Disabled state */
+#gzseo-saved-bulk-items .gzseo-saved-item input:disabled,
+#gzseo-saved-bulk-items .gzseo-saved-item select:disabled {
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+/* Edit mode */
+#gzseo-saved-bulk-items .gzseo-edit-saved-item.editing {
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+
+#gzseo-saved-bulk-items .gzseo-edit-saved-item.editing:hover {
+    background: #45a049;
+    border-color: #45a049;
+}
+
+/********************************* استایل های بخش اسکیمای افزونه *******************************/
+/* استایل‌های بخش اسکیما با namespace مخصوص و نمایش دو ستونه */
+.gzseo-config-panel#config-schema {
+    /*max-width: 1200px;*/
+}
+
+/* Grid container برای فرم */
+.gzseo-config-panel#config-schema #gzseo-person-schema-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Grid برای فیلدها */
+.gzseo-schema-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* فیلدهایی که باید تمام عرض باشند */
+.gzseo-schema-form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-form-group {
+    margin-bottom: 0; /* حذف margin چون از gap استفاده می‌کنیم */
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    transition: all 0.3s ease;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-form-group:hover {
+    border-color: #4e4b83;
+    box-shadow: 0 2px 5px rgba(78, 75, 131, 0.1);
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #23282d;
+    font-size: 14px;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-form-group .gzseo-schema-description {
+    display: block;
+    margin-top: 8px;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* استایل Select2 برای انتخاب صفحات */
+.gzseo-config-panel#config-schema .gzseo-pages-select {
+    width: 100% !important;
+}
+
+.gzseo-config-panel#config-schema .select2-container {
+    width: 100% !important;
+}
+
+.gzseo-config-panel#config-schema .select2-container--default .select2-selection--multiple {
+    min-height: 120px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.gzseo-config-panel#config-schema .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #4e4b83;
+    border: 1px solid #3d3a6e;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.gzseo-config-panel#config-schema .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.gzseo-config-panel#config-schema .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    color: #ffcccc;
+}
+
+/* استایل input ها */
+.gzseo-config-panel#config-schema .gzseo-schema-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #32373c;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-input:focus {
+    border-color: #4e4b83;
+    box-shadow: 0 0 0 2px rgba(78, 75, 131, 0.2);
+    outline: none;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-input.error {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.2);
+}
+
+.gzseo-config-panel#config-schema textarea.gzseo-schema-input {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* استایل انتخاب تصویر */
+.gzseo-config-panel#config-schema .gzseo-schema-image-selector {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-image-selector .gzseo-schema-input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-image-preview {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-image-preview img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* استایل شبکه‌های اجتماعی */
+.gzseo-config-panel#config-schema #gzseo-schema-social-links {
+    margin-bottom: 10px;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-social-link-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-social-link-item .gzseo-schema-input {
+    flex: 1;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-social-link-item .gzseo-btn-danger {
+    padding: 10px 15px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* دکمه افزودن شبکه اجتماعی */
+.gzseo-config-panel#config-schema #gzseo-schema-add-social {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+/* دکمه‌های عملیات */
+.gzseo-config-panel#config-schema .gzseo-schema-form-actions {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #e5e5e5;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    grid-column: 1 / -1;
+}
+
+/* پیام‌های اطلاع‌رسانی */
+.gzseo-config-panel#config-schema .gzseo-schema-alert {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-alert-info {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border: 1px solid #bbdefb;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-alert i {
+    font-size: 20px;
+}
+
+/* دکمه‌های سفارشی */
+.gzseo-config-panel#config-schema .gzseo-schema-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn-primary {
+    background-color: #4e4b83;
+    color: #fff;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn-primary:hover {
+    background-color: #3d3a6e;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .gzseo-schema-form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .gzseo-config-panel#config-schema .gzseo-schema-form-group {
+        padding: 15px;
+    }
+    
+    .gzseo-config-panel#config-schema .gzseo-schema-image-selector {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .gzseo-config-panel#config-schema .gzseo-schema-social-link-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .gzseo-config-panel#config-schema .gzseo-schema-social-link-item .gzseo-schema-input {
+        margin-bottom: 10px;
+    }
+    
+    .gzseo-config-panel#config-schema .gzseo-schema-form-actions {
+        flex-direction: column;
+    }
+    
+    .gzseo-config-panel#config-schema .gzseo-schema-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .gzseo-config-panel#config-schema .select2-container--default .select2-selection--multiple {
+        min-height: 100px;
+    }
+}
+
+/* Loading state */
+.gzseo-config-panel#config-schema .gzseo-schema-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.gzseo-config-panel#config-schema .gzseo-schema-btn:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/********************************* استایل های بخش اسکیمای افزونه، بخش فرانت *******************************/
+/* استایل کارت شخص */
+.gzseo-person-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.gzseo-person-image {
+    flex-shrink: 0;
+}
+
+.gzseo-person-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.gzseo-person-info {
+    flex: 1;
+}
+
+.gzseo-person-name {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.gzseo-person-job {
+    margin: 0 0 10px 0;
+    color: #666;
+    font-size: 16px;
+}
+
+.gzseo-person-description {
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.gzseo-person-contact {
+    margin: 15px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gzseo-person-contact a {
+    color: #2196F3;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s;
+}
+
+.gzseo-person-contact a:hover {
+    color: #1976D2;
+}
+
+.gzseo-person-social {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.gzseo-social-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s;
+}
+
+.gzseo-social-link:hover {
+    background: #2196F3;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .gzseo-person-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .gzseo-person-contact {
+        justify-content: center;
+    }
+    
+    .gzseo-person-social {
+        justify-content: center;
+    }
+}
+
+/*************************************** recovery password css ************************************/
+/* استایل‌های بازیابی رمز عبور */
+#gzseo-reset-password-wrapper {
+    display: none;
+}
+
+.gzseo-forget-password-wrapper {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+}
+
+#gzseo-forget-password-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+#gzseo-forget-password-link:hover {
+    color: #3a3868 !important;
+    text-decoration: underline !important;
+}
+
+#gzseo-reset-password-wrapper h4 {
+    color: #4e4b83;
+    font-weight: 600;
+}
+
+#gzseo-ai-forget-form .gzseo-form-group,
+#gzseo-ai-reset-form .gzseo-form-group {
+    margin-bottom: 15px;
+}
+
+#gzseo-reset-messages {
+    margin-top: 15px;
+}
+
+.gzseo-alert {
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.gzseo-alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.gzseo-alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.gzseo-alert i {
+    font-size: 16px;
+}
+
+/* انیمیشن برای دکمه‌ها */
+#gzseo-ai-forget-form button:disabled,
+#gzseo-ai-reset-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* رسپانسیو برای موبایل */
+@media (max-width: 768px) {
+    #gzseo-reset-password-wrapper {
+        padding: 0 15px;
+    }
+    
+    #gzseo-ai-forget-form button,
+    #gzseo-ai-reset-form button {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+}

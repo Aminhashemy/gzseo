@@ -1,0 +1,2630 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: GZSEO\n"
+"POT-Creation-Date: 2025-10-26 10:19+0330\n"
+"PO-Revision-Date: 2025-10-26 10:29+0330\n"
+"Language-Team: English (United States)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gzseo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: gzseo.php:171 gzseo.php:172
+msgid "جی زد سئو"
+msgstr "GZSEO"
+
+#: gzseo.php:183 gzseo.php:184 includes/admin-dashboard.php:26 includes/admin-dashboard.php:80
+msgid "داشبورد"
+msgstr "Dashboard"
+
+#: gzseo.php:193 gzseo.php:194 includes/admin-bulk-update.php:9 includes/admin-dashboard.php:56 includes/admin-dashboard.php:516
+msgid "آپدیت دسته جمعی"
+msgstr "Bulk Update"
+
+#: gzseo.php:203 gzseo.php:204
+msgid "گزارشات"
+msgstr "Reports"
+
+#: gzseo.php:304
+msgid "آیا مطمئن هستید؟"
+msgstr "Are you sure?"
+
+#: gzseo.php:305
+msgid "در حال بارگذاری..."
+msgstr "Loading..."
+
+#: gzseo.php:306
+msgid "خطایی رخ داده است"
+msgstr "An error occurred"
+
+#: gzseo.php:307
+msgid "عملیات با موفقیت انجام شد"
+msgstr "Operation completed successfully"
+
+#: gzseo.php:353 gzseo.php:399 gzseo.php:499
+msgid "امکانات افزونه جی زد سئو"
+msgstr "GZSEO Plugin Features"
+
+#: gzseo.php:402 gzseo.php:502
+msgid "اعتبار شما:"
+msgstr "Your credit:"
+
+#: gzseo.php:402 gzseo.php:502 includes/admin-dashboard.php:448
+msgid "توکن"
+msgstr "Token"
+
+#: gzseo.php:407 gzseo.php:507
+msgid "آپدیت محتوایی"
+msgstr "Content Update"
+
+#: gzseo.php:408 gzseo.php:508 includes/admin-bulk-update.php:77 includes/admin-dashboard.php:565 includes/admin-dashboard.php:626
+msgid "آپدیت ویدیویی"
+msgstr "Video Update"
+
+#: gzseo.php:409 includes/admin-bulk-update.php:78 includes/admin-dashboard.php:566 includes/admin-dashboard.php:627 includes/admin-dashboard.php:676
+msgid "تصویر شاخص"
+msgstr "Featured Image"
+
+#: gzseo.php:410 gzseo.php:509
+msgid "عنوان و توضیحات پست"
+msgstr "Post Title and Description"
+
+#: gzseo.php:411
+msgid "تولید کامنت"
+msgstr "Comment Generation"
+
+#: gzseo.php:412 gzseo.php:510
+msgid "تولید جدول"
+msgstr "Table Generation"
+
+#: gzseo.php:423 gzseo.php:521
+msgid "ماژول آپدیت محتوایی یافت نشد."
+msgstr "Content update module not found."
+
+#: gzseo.php:435 gzseo.php:533
+msgid "ماژول آپدیت ویدیویی یافت نشد."
+msgstr "Video update module not found."
+
+#: gzseo.php:447
+msgid "ماژول تولید تصویر با هوش مصنوعی یافت نشد."
+msgstr "AI image generation module not found."
+
+#: gzseo.php:459 gzseo.php:545
+msgid "ماژول تولید عنوان و توضیحات با هوش مصنوعی یافت نشد."
+msgstr "AI title and description generation module not found."
+
+#: gzseo.php:471
+msgid "ماژول تولید کامنت با هوش مصنوعی یافت نشد."
+msgstr "AI comment generation module not found."
+
+#: gzseo.php:483 gzseo.php:557
+msgid "ماژول تولید جدول با هوش مصنوعی یافت نشد."
+msgstr "AI table generation module not found."
+
+#: gzseo.php:579 includes/class-gzseo-featured-image-settings.php:233 includes/class-gzseo-product-list-schema.php:225 includes/class-gzseo-table-styles.php:66
+msgid "تنظیمات با موفقیت ذخیره شد"
+msgstr "Settings saved successfully"
+
+#: gzseo.php:588
+msgid "داشبورد بروزرسانی شد"
+msgstr "Dashboard updated"
+
+#: gzseo.php:606
+msgid "اتصال قطع شد"
+msgstr "Connection lost"
+
+#: gzseo.php:613 gzseo.php:677 gzseo.php:743 gzseo.php:824 gzseo.php:964 gzseo.php:1173 includes/ajax-handlers.php:17 includes/class-gzseo-comment-generator-ai.php:301 includes/class-gzseo-comment-generator-ai.php:622 includes/class-gzseo-comment-generator-ai.php:635 includes/class-gzseo-comment-generator-ai.php:648 includes/class-gzseo-comment-generator-ai.php:1033 includes/class-gzseo-content-update.php:260 includes/class-gzseo-content-update.php:339 includes/class-gzseo-content-update.php:519 includes/class-gzseo-content-update.php:533
+#: includes/class-gzseo-content-update.php:564 includes/class-gzseo-content-update.php:877 includes/class-gzseo-content-update.php:954 includes/class-gzseo-featured-image-ai.php:95 includes/class-gzseo-featured-image-ai.php:260 includes/class-gzseo-featured-image-ai.php:286 includes/class-gzseo-featured-image-settings.php:204 includes/class-gzseo-person-schema.php:71 includes/class-gzseo-person-schema.php:141 includes/class-gzseo-product-list-schema.php:210 includes/class-gzseo-search-console.php:93 includes/class-gzseo-search-console.php:230
+#: includes/class-gzseo-search-console.php:267 includes/class-gzseo-table-generator.php:114 includes/class-gzseo-table-generator.php:279 includes/class-gzseo-table-generator.php:339 includes/class-gzseo-table-generator.php:390 includes/class-gzseo-table-generator.php:426 includes/class-gzseo-table-styles.php:36 includes/class-gzseo-title-description-generator.php:422 includes/class-gzseo-title-description-generator.php:540 includes/class-gzseo-title-description-generator.php:697 includes/class-gzseo-title-description-generator.php:798
+#: includes/migrations/class-gzseo-migration-manager.php:395 includes/migrations/class-gzseo-migration-manager.php:414
+msgid "خطای امنیتی"
+msgstr "Security error"
+
+#: gzseo.php:628
+msgid "آیتم با موفقیت حذف شد"
+msgstr "Item deleted successfully"
+
+#: gzseo.php:630 gzseo.php:652 gzseo.php:753 gzseo.php:838
+msgid "آیتم یافت نشد"
+msgstr "Item not found"
+
+#: gzseo.php:650
+msgid "آیتم با موفقیت بروزرسانی شد"
+msgstr "Item updated successfully"
+
+#: gzseo.php:671
+msgid "آیتم جدید با موفقیت ذخیره شد"
+msgstr "New item saved successfully"
+
+#: gzseo.php:734
+msgid "هیچ ترمی یافت نشد."
+msgstr "No terms found."
+
+#: gzseo.php:927
+msgid "نوع آپدیت نامعتبر است"
+msgstr "Invalid update type"
+
+#: gzseo.php:956
+#, php-format
+msgid "%d مورد با موفقیت آپدیت شد"
+msgid_plural "%d مورد با موفقیت آپدیت شد"
+msgstr[0] "%d item updated successfully"
+msgstr[1] "%d items updated successfully"
+
+#: gzseo.php:970 includes/class-gzseo-featured-image-settings.php:210 includes/class-gzseo-person-schema.php:77 includes/class-gzseo-person-schema.php:147 includes/class-gzseo-product-list-schema.php:216
+msgid "شما دسترسی لازم را ندارید"
+msgstr "You do not have sufficient permissions"
+
+#: gzseo.php:985
+msgid "تنظیمات آپدیت محتوا با موفقیت ذخیره شد"
+msgstr "Content update settings saved successfully"
+
+#: gzseo.php:993
+msgid "تنظیمات مدیریت کامنت با موفقیت ذخیره شد"
+msgstr "Comment management settings saved successfully"
+
+#: gzseo.php:998
+msgid "از اکشن مخصوص table styles استفاده کنید"
+msgstr "Use the dedicated table styles action"
+
+#: gzseo.php:1005
+msgid "تنظیمات اسکیما با موفقیت ذخیره شد"
+msgstr "Schema settings saved successfully"
+
+#: gzseo.php:1009
+msgid "نوع پیکربندی نامعتبر است"
+msgstr "Invalid configuration type"
+
+#: gzseo.php:1116
+msgid "Client error"
+msgstr "Client error"
+
+#: gzseo.php:1146
+msgid "API Error:"
+msgstr "API Error:"
+
+#: gzseo.php:1146
+msgid "Context:"
+msgstr "Context:"
+
+#: gzseo.php:1146
+msgid "Time:"
+msgstr "Time:"
+
+#: includes/admin-bulk-update.php:19
+msgid "هیچ قانون آپدیت دسته جمعی تعریف نشده است. برای تعریف قانون جدید به بخش داشبورد > آپدیت دسته جمعی مراجعه کنید."
+msgstr "No bulk update rules have been defined. To define a new rule, go to Dashboard > Bulk Update."
+
+#: includes/admin-bulk-update.php:74 includes/admin-dashboard.php:562 includes/admin-dashboard.php:623
+msgid "جدول"
+msgstr "Table"
+
+#: includes/admin-bulk-update.php:75 includes/admin-dashboard.php:563 includes/admin-dashboard.php:624 includes/admin-reports.php:335
+msgid "کامنت"
+msgstr "Comment"
+
+#: includes/admin-bulk-update.php:76 includes/admin-dashboard.php:564 includes/admin-dashboard.php:625
+msgid "آپدیت محتوا"
+msgstr "Content Update"
+
+#: includes/admin-bulk-update.php:90
+msgid "نوع نوشته:"
+msgstr "Post Type:"
+
+#: includes/admin-bulk-update.php:91
+msgid "نوع طبقه بندی:"
+msgstr "Taxonomy Type:"
+
+#: includes/admin-bulk-update.php:94
+msgid "همه محتواها (all)"
+msgstr "All content (all)"
+
+#: includes/admin-bulk-update.php:96 includes/admin-dashboard.php:574 includes/admin-dashboard.php:635
+msgid "دسته ها"
+msgstr "Categories"
+
+#: includes/admin-bulk-update.php:98 includes/admin-dashboard.php:575 includes/admin-dashboard.php:636
+msgid "برچسب ها"
+msgstr "Tags"
+
+#: includes/admin-bulk-update.php:102
+msgid "نوع آپدیت:"
+msgstr "Update Type:"
+
+#: includes/admin-bulk-update.php:103
+msgid "آخرین زمان آپدیت:"
+msgstr "Last Updated:"
+
+#: includes/admin-bulk-update.php:103
+msgid "روز گذشته"
+msgstr "Yesterday"
+
+#: includes/admin-bulk-update.php:104
+#, php-format
+msgid "تعداد %s مطابق با انتخاب شما:"
+msgstr "Number of %s matching your selection:"
+
+#: includes/admin-bulk-update.php:110
+msgid "تعداد برای آپدیت:"
+msgstr "Count to update:"
+
+#: includes/admin-bulk-update.php:113
+msgid "پیش نمایش"
+msgstr "Preview"
+
+#: includes/admin-bulk-update.php:116
+msgid "اجرا"
+msgstr "Execute"
+
+#: includes/admin-dashboard.php:15
+msgid "تنظیمات جی زد سئو"
+msgstr "GZSEO Settings"
+
+#: includes/admin-dashboard.php:16
+#, php-format
+msgid "نسخه %s"
+msgstr "Version %s"
+
+#: includes/admin-dashboard.php:27
+msgid "معرفی افزونه"
+msgstr "Plugin Introduction"
+
+#: includes/admin-dashboard.php:36
+msgid "سرچ کنسول"
+msgstr "Search Console"
+
+#: includes/admin-dashboard.php:37
+msgid "اتصال به سرچ کنسول و رفع ایراد"
+msgstr "Connect to Search Console and fix issues"
+
+#: includes/admin-dashboard.php:46 includes/admin-dashboard.php:209
+msgid "هوش مصنوعی"
+msgstr "Artificial Intelligence"
+
+#: includes/admin-dashboard.php:47
+msgid "اتصال به هوش مصنوعی و خرید شارژ"
+msgstr "Connect to AI and purchase credit"
+
+#: includes/admin-dashboard.php:57
+msgid "انتخاب محتواهای دلخواه برای بروزرسانی"
+msgstr "Select custom content for updating"
+
+#: includes/admin-dashboard.php:66 includes/admin-dashboard.php:662
+msgid "پیکربندی افزونه"
+msgstr "Plugin Configuration"
+
+#: includes/admin-dashboard.php:67
+msgid "تنظیمات مربوط به هوش مصنوعی"
+msgstr "AI-related settings"
+
+#: includes/admin-dashboard.php:83
+msgid "بروزرسانی داشبورد"
+msgstr "Update Dashboard"
+
+#: includes/admin-dashboard.php:92
+msgid "جی زد سئو چیه؟"
+msgstr "What is GZSEO?"
+
+#: includes/admin-dashboard.php:93
+msgid "توی نسخه فعلی، یه افزونه ای که قراره با ساخت کامنت و ایجاد جدول (تگ Table) صفحاتتون رو به روز کنه. اونم با محتوای قدرت گرفته از هوش مصنوعی ChatGPT جدول رو با توجه به محتوا خودتون میسازه و کامنت رو هم با توجه به موضوعیت صفحه شما… راستی یه نسخه رایگان کوچولو هم داره! اگر دوست داری بیشتر باهاش اشنا بشی ویدیو رو ببین… یه کم راهنمایی بیشتر؟ آره حتما چرا که نه… بیا روی یک پروژه عملی با جی زد برات صفحات رو آپدیت کنم تا ببینی چطور میتونی تک به تک توی زیر ۳ دقیقه میتونی صفحاتت رو آپدیت کنی! آماده ای؟‌ بزن بریم سراغ ویدیو …"
+msgstr ""
+"In the current version, it's a plugin designed to update your pages by creating comments and tables (Table tags). It uses content powered by ChatGPT AI to create tables based on your content and comments relevant to your page's topic... By the way, it also has a small free version! If you'd like to get to know it better, watch the video... Need a little more guidance? Yes, of course... Let me update your pages on a real project with GZSEO so you can see how you can update each of your pages in under 3 minutes! Are you ready? Let's go to the video..."
+
+#: includes/admin-dashboard.php:99
+msgid "Your browser does not support the video tag."
+msgstr "Your browser does not support the video tag."
+
+#: includes/admin-dashboard.php:106
+msgid "آموزش سئو"
+msgstr "SEO Tutorial"
+
+#: includes/admin-dashboard.php:112
+msgid "خدمات سئو"
+msgstr "SEO Services"
+
+#: includes/admin-dashboard.php:124
+msgid "اتصال به سرچ کنسول"
+msgstr "Connect to Search Console"
+
+#: includes/admin-dashboard.php:127 includes/admin-dashboard.php:212 includes/admin-dashboard.php:519 includes/admin-dashboard.php:665
+msgid "مشاهده راهنما"
+msgstr "View Guide"
+
+#: includes/admin-dashboard.php:146
+msgid "اتصال برقرار است!"
+msgstr "Connected!"
+
+#: includes/admin-dashboard.php:148
+#, php-format
+msgid "ایمیل: %s"
+msgstr "Email: %s"
+
+#: includes/admin-dashboard.php:151
+msgid "اگر در دریافت اطلاعات مشکل دارید، می‌توانید قطع اتصال کرده و مجدداً احراز هویت کنید."
+msgstr "If you are having trouble receiving information, you can disconnect and re-authenticate."
+
+#: includes/admin-dashboard.php:155
+msgid "برای دریافت اطلاعات از سرچ کنسول گوگل، ابتدا باید احراز هویت انجام دهید."
+msgstr "To receive information from Google Search Console, you must first authenticate."
+
+#: includes/admin-dashboard.php:162
+msgid "تنظیمات حرفه ای"
+msgstr "Advanced Settings"
+
+#: includes/admin-dashboard.php:168
+msgid "آدرس سایت"
+msgstr "Site URL"
+
+#: includes/admin-dashboard.php:170
+msgid "https://example.com"
+msgstr "https://example.com"
+
+#: includes/admin-dashboard.php:171
+msgid "آدرس دقیق سایتی که در سرچ کنسول ثبت شده است"
+msgstr "The exact URL of the site registered in Search Console"
+
+#: includes/admin-dashboard.php:175
+msgid "نوع دامنه"
+msgstr "Domain Type"
+
+#: includes/admin-dashboard.php:186
+msgid "احراز هویت با گوگل"
+msgstr "Authenticate with Google"
+
+#: includes/admin-dashboard.php:191 includes/admin-dashboard.php:273
+msgid "قطع اتصال"
+msgstr "Disconnect"
+
+#: includes/admin-dashboard.php:194 includes/admin-dashboard.php:797 includes/admin-dashboard.php:831 includes/admin-dashboard.php:889 includes/admin-dashboard.php:936 includes/class-gzseo-featured-image-settings.php:95 includes/migrations/class-gzseo-migration-manager.php:243
+msgid "ذخیره تنظیمات"
+msgstr "Save Settings"
+
+#: includes/admin-dashboard.php:222
+msgid "اتصال به اکانت هوش مصنوعی"
+msgstr "Connect to AI Account"
+
+#: includes/admin-dashboard.php:223
+msgid "سلام، من سید محمد امین هاشمی متخصص و مدرس سئو هستم. حدود 10 سالی هست که در حوزه های مختلف دیجیتال مارکتینگ کار کردم (از طراحی و برنامه نویسی بگیر تا الان که سئو کار میکنم)..."
+msgstr "Hello, I am Seyed Mohammad Amin Hashemi, an SEO specialist and instructor. I have been working in various fields of digital marketing for about 10 years (from design and programming to now working in SEO)..."
+
+#: includes/admin-dashboard.php:228
+msgid "ورود به اکانت"
+msgstr "Login to Account"
+
+#: includes/admin-dashboard.php:229
+msgid "ثبت نام جدید"
+msgstr "New Registration"
+
+#: includes/admin-dashboard.php:235 includes/admin-dashboard.php:251 includes/admin-dashboard.php:1060
+msgid "ایمیل"
+msgstr "Email"
+
+#: includes/admin-dashboard.php:238 includes/admin-dashboard.php:254
+msgid "رمز عبور"
+msgstr "Password"
+
+#: includes/admin-dashboard.php:241
+msgid "ورود"
+msgstr "Login"
+
+#: includes/admin-dashboard.php:248
+msgid "نام"
+msgstr "Name"
+
+#: includes/admin-dashboard.php:258
+msgid "تکرار رمز عبور"
+msgstr "Confirm Password"
+
+#: includes/admin-dashboard.php:261
+msgid "ثبت نام"
+msgstr "Register"
+
+#: includes/admin-dashboard.php:269
+#, php-format
+msgid "اعتبار شما : %s کلمه می باشد."
+msgstr "Your credit: %s words."
+
+#: includes/admin-dashboard.php:278
+msgid "خرید یا افزایش اعتبار هوش مصنوعی"
+msgstr "Purchase or Increase AI Credit"
+
+#: includes/admin-dashboard.php:283
+msgid "پکیج پایه"
+msgstr "Basic Package"
+
+#: includes/admin-dashboard.php:284
+msgid "جمع کلمات : 10,000"
+msgstr "Total words: 10,000"
+
+#: includes/admin-dashboard.php:285
+msgid "مبلغ : 50,000 تومان"
+msgstr "Price: 50,000 Toman"
+
+#: includes/admin-dashboard.php:286 includes/admin-dashboard.php:293 includes/admin-dashboard.php:300
+msgid "افزایش اعتبار"
+msgstr "Increase Credit"
+
+#: includes/admin-dashboard.php:290
+msgid "پکیج حرفه‌ای"
+msgstr "Professional Package"
+
+#: includes/admin-dashboard.php:291
+msgid "جمع کلمات : 50,000"
+msgstr "Total words: 50,000"
+
+#: includes/admin-dashboard.php:292
+msgid "مبلغ : 200,000 تومان"
+msgstr "Price: 200,000 Toman"
+
+#: includes/admin-dashboard.php:297
+msgid "پکیج ویژه"
+msgstr "Special Package"
+
+#: includes/admin-dashboard.php:298
+msgid "جمع کلمات : 100,000"
+msgstr "Total words: 100,000"
+
+#: includes/admin-dashboard.php:299
+msgid "مبلغ : 350,000 تومان"
+msgstr "Price: 350,000 Toman"
+
+#: includes/admin-dashboard.php:311
+msgid "تاریخچه تراکنش‌ها"
+msgstr "Transaction History"
+
+#: includes/admin-dashboard.php:318
+msgid "ردیف"
+msgstr "Row"
+
+#: includes/admin-dashboard.php:319
+msgid "نام پکیج"
+msgstr "Package Name"
+
+#: includes/admin-dashboard.php:320
+msgid "مبلغ (ریال)"
+msgstr "Amount (Rial)"
+
+#: includes/admin-dashboard.php:321
+msgid "اعتبار"
+msgstr "Credit"
+
+#: includes/admin-dashboard.php:322
+msgid "شماره فاکتور"
+msgstr "Invoice Number"
+
+#: includes/admin-dashboard.php:323 includes/migrations/class-gzseo-migration-manager.php:155
+msgid "وضعیت"
+msgstr "Status"
+
+#: includes/admin-dashboard.php:324 includes/migrations/class-gzseo-migration-manager.php:256
+msgid "تاریخ"
+msgstr "Date"
+
+#: includes/admin-dashboard.php:325 includes/admin-reports.php:144 includes/admin-reports.php:317 includes/admin-reports.php:458 includes/migrations/class-gzseo-migration-manager.php:158
+msgid "عملیات"
+msgstr "Action"
+
+#: includes/admin-dashboard.php:337
+msgid "کلمه"
+msgstr "Word"
+
+#: includes/admin-dashboard.php:345 includes/admin-dashboard.php:469
+msgid "تکمیل شده"
+msgstr "Completed"
+
+#: includes/admin-dashboard.php:349 includes/admin-dashboard.php:472
+msgid "ناموفق"
+msgstr "Failed"
+
+#: includes/admin-dashboard.php:358
+msgid "دانلود رسید"
+msgstr "Download Receipt"
+
+#: includes/admin-dashboard.php:399
+msgid "رسید پرداخت"
+msgstr "Payment Receipt"
+
+#: includes/admin-dashboard.php:424
+msgid "شماره فاکتور:"
+msgstr "Invoice Number:"
+
+#: includes/admin-dashboard.php:431
+msgid "تاریخ:"
+msgstr "Date:"
+
+#: includes/admin-dashboard.php:438
+msgid "نام پکیج:"
+msgstr "Package Name:"
+
+#: includes/admin-dashboard.php:446
+msgid "اعتبار دریافتی:"
+msgstr "Credit Received:"
+
+#: includes/admin-dashboard.php:454
+msgid "مبلغ پرداختی:"
+msgstr "Amount Paid:"
+
+#: includes/admin-dashboard.php:458
+msgid "ریال"
+msgstr "Rial"
+
+#: includes/admin-dashboard.php:465
+msgid "وضعیت:"
+msgstr "Status:"
+
+#: includes/admin-dashboard.php:489
+msgid "این رسید توسط افزونه جی زد سئو تولید شده است"
+msgstr "This receipt was generated by the GZSEO plugin"
+
+#: includes/admin-dashboard.php:534 includes/admin-dashboard.php:1094 includes/admin-dashboard.php:1121 includes/class-gzseo-content-update.php:241 includes/class-gzseo-content-update.php:834 includes/class-gzseo-table-generator.php:590 includes/class-gzseo-table-generator.php:728
+msgid "حذف"
+msgstr "Delete"
+
+#: includes/admin-dashboard.php:535 includes/admin-reports.php:500 includes/class-gzseo-content-update.php:235 includes/class-gzseo-content-update.php:828 includes/class-gzseo-table-generator.php:587 includes/class-gzseo-table-generator.php:725
+msgid "ویرایش"
+msgstr "Edit"
+
+#: includes/admin-dashboard.php:539 includes/admin-dashboard.php:600
+msgid "نوع نوشته"
+msgstr "Post Type"
+
+#: includes/admin-dashboard.php:555 includes/admin-dashboard.php:616
+msgid "آخرین آپدیت (روز)"
+msgstr "Last Update (days)"
+
+#: includes/admin-dashboard.php:560 includes/admin-dashboard.php:621
+msgid "نوع آپدیت"
+msgstr "Update Type"
+
+#: includes/admin-dashboard.php:571 includes/admin-dashboard.php:632
+msgid "نوع تکسونومی"
+msgstr "Taxonomy Type"
+
+#: includes/admin-dashboard.php:573 includes/admin-dashboard.php:634
+msgid "همه موارد"
+msgstr "All Items"
+
+#: includes/admin-dashboard.php:583
+msgid "ترم‌های انتخاب شده:"
+msgstr "Selected Terms:"
+
+#: includes/admin-dashboard.php:595
+msgid "افزودن آیتم جدید"
+msgstr "Add New Item"
+
+#: includes/admin-dashboard.php:617
+msgid "مثال: 30"
+msgstr "Example: 30"
+
+#: includes/admin-dashboard.php:650
+msgid "ذخیره"
+msgstr "Save"
+
+#: includes/admin-dashboard.php:673
+msgid "استایل جدول"
+msgstr "Table Style"
+
+#: includes/admin-dashboard.php:674
+msgid "مدیریت کامنت"
+msgstr "Comment Management"
+
+#: includes/admin-dashboard.php:675
+msgid "مدیریت آپدیت محتوا"
+msgstr "Content Update Management"
+
+#: includes/admin-dashboard.php:677
+msgid "اسکیما"
+msgstr "Schema"
+
+#: includes/admin-dashboard.php:709
+msgid "استفاده از استایل های آماده"
+msgstr "Use predefined styles"
+
+#: includes/admin-dashboard.php:710
+msgid "برای استفاده از استایل های قالب سایت خود، این گزینه را غیرفعال بگذارید."
+msgstr "To use your theme's table styles, disable this option."
+
+#: includes/admin-dashboard.php:712
+msgid "فعال / غیرفعال"
+msgstr "Enable / Disable"
+
+#: includes/admin-dashboard.php:716
+msgid "موقعیت جدول"
+msgstr "Table Position"
+
+#: includes/admin-dashboard.php:717
+msgid "مشخص کنید به صورت سراسری جداول ساخته شده در کدام قسمت محتوا نمایش داده شود."
+msgstr "Specify where in the content the generated tables should be displayed globally."
+
+#: includes/admin-dashboard.php:719 includes/admin-dashboard.php:865 includes/admin-dashboard.php:880
+msgid "ابتدا محتوا"
+msgstr "Beginning of content"
+
+#: includes/admin-dashboard.php:720 includes/admin-dashboard.php:866 includes/admin-dashboard.php:881
+msgid "انتها محتوا"
+msgstr "End of content"
+
+#: includes/admin-dashboard.php:721 includes/admin-dashboard.php:867 includes/admin-dashboard.php:882 includes/class-gzseo-content-update.php:166 includes/class-gzseo-content-update.php:446 includes/class-gzseo-content-update.php:766 includes/class-gzseo-table-generator.php:612 includes/class-gzseo-table-generator.php:650 includes/class-gzseo-table-generator.php:750 includes/class-gzseo-table-generator.php:788 includes/class-gzseo-video-update.php:652 includes/class-gzseo-video-update.php:1486
+msgid "بعد از اولین پاراگراف"
+msgstr "After first paragraph"
+
+#: includes/admin-dashboard.php:722 includes/admin-dashboard.php:868 includes/admin-dashboard.php:883 includes/class-gzseo-table-generator.php:613 includes/class-gzseo-table-generator.php:651 includes/class-gzseo-table-generator.php:751 includes/class-gzseo-table-generator.php:789 includes/class-gzseo-video-update.php:653 includes/class-gzseo-video-update.php:1487
+msgid "بعد از اولین تیتر"
+msgstr "After first heading"
+
+#: includes/admin-dashboard.php:750
+msgid "سربرگ"
+msgstr "Header"
+
+#: includes/admin-dashboard.php:751 includes/admin-dashboard.php:756 includes/admin-dashboard.php:761
+msgid "پس زمینه"
+msgstr "Background"
+
+#: includes/admin-dashboard.php:752 includes/admin-dashboard.php:757 includes/admin-dashboard.php:762
+msgid "متن"
+msgstr "Text"
+
+#: includes/admin-dashboard.php:755
+msgid "ردیف های فرد"
+msgstr "Odd Rows"
+
+#: includes/admin-dashboard.php:760
+msgid "ردیف های زوج"
+msgstr "Even Rows"
+
+#: includes/admin-dashboard.php:770
+msgid "ستون 1"
+msgstr "Column 1"
+
+#: includes/admin-dashboard.php:771
+msgid "ستون 2"
+msgstr "Column 2"
+
+#: includes/admin-dashboard.php:772
+msgid "ستون 3"
+msgstr "Column 3"
+
+#: includes/admin-dashboard.php:777
+msgid "محتوا 1"
+msgstr "Content 1"
+
+#: includes/admin-dashboard.php:778
+msgid "محتوا 2"
+msgstr "Content 2"
+
+#: includes/admin-dashboard.php:779
+msgid "محتوا 3"
+msgstr "Content 3"
+
+#: includes/admin-dashboard.php:782
+msgid "محتوا 4"
+msgstr "Content 4"
+
+#: includes/admin-dashboard.php:783
+msgid "محتوا 5"
+msgstr "Content 5"
+
+#: includes/admin-dashboard.php:784
+msgid "محتوا 6"
+msgstr "Content 6"
+
+#: includes/admin-dashboard.php:787
+msgid "محتوا 7"
+msgstr "Content 7"
+
+#: includes/admin-dashboard.php:788
+msgid "محتوا 8"
+msgstr "Content 8"
+
+#: includes/admin-dashboard.php:789
+msgid "محتوا 9"
+msgstr "Content 9"
+
+#: includes/admin-dashboard.php:811
+msgid "لحن محتوا"
+msgstr "Content Tone"
+
+#: includes/admin-dashboard.php:812
+msgid "مشخص کنید محتوای شما با چه لحنی تولید شود"
+msgstr "Specify the tone for your generated content"
+
+#: includes/admin-dashboard.php:814
+msgid "لطفاً یک گزینه انتخاب کنید"
+msgstr "Please select an option"
+
+#: includes/admin-dashboard.php:815 includes/class-gzseo-comment-generator-ai.php:827
+msgid "رندوم"
+msgstr "Random"
+
+#: includes/admin-dashboard.php:816 includes/class-gzseo-comment-generator-ai.php:828
+msgid "سوال جامع"
+msgstr "Comprehensive Question"
+
+#: includes/admin-dashboard.php:817 includes/class-gzseo-comment-generator-ai.php:829
+msgid "سوال کوتاه"
+msgstr "Short Question"
+
+#: includes/admin-dashboard.php:818 includes/class-gzseo-comment-generator-ai.php:830
+msgid "تجربه منفی"
+msgstr "Negative Experience"
+
+#: includes/admin-dashboard.php:819 includes/admin-reports.php:296 includes/class-gzseo-comment-generator-ai.php:831
+msgid "تجربه مثبت"
+msgstr "Positive Experience"
+
+#: includes/admin-dashboard.php:823
+msgid "تعداد کلمات"
+msgstr "Word Count"
+
+#: includes/admin-dashboard.php:824
+msgid "مشخص کنید محتوای شما شامل چند کلمه باشد"
+msgstr "Specify the word count for your content"
+
+#: includes/admin-dashboard.php:844
+msgid "تنظیمات آپدیت محتوای متنی"
+msgstr "Text Content Update Settings"
+
+#: includes/admin-dashboard.php:848
+msgid "نمایش آکاردئونی"
+msgstr "Accordion Display"
+
+#: includes/admin-dashboard.php:849
+msgid "با فعال کردن این گزینه، آپدیت محتوا به جای حالت معمولی(پاراگراف)، به صورت کشویی (آکاردئون) نمایش داده خواهد شد."
+msgstr "By enabling this option, the content update will be displayed in an accordion (collapsible) format instead of a regular paragraph."
+
+#: includes/admin-dashboard.php:851
+msgid "فعال/غیرفعال"
+msgstr "Enable/Disable"
+
+#: includes/admin-dashboard.php:855
+msgid "نمایش آکاردئونی – عنوان دکمه مشاهده بیشتر"
+msgstr "Accordion Display - 'Read More' Button Text"
+
+#: includes/admin-dashboard.php:856
+msgid "میتوانید به جای متن پیشفرض \"مشاهده بیشتر\" در عنوان آکاردئون ها، متن دلخواه خود را وارد نمایید."
+msgstr "You can enter your custom text instead of the default \"Read More\" text for the accordion titles."
+
+#: includes/admin-dashboard.php:862 includes/admin-dashboard.php:877
+msgid "موقعیت نمایش پیشفرض"
+msgstr "Default Display Position"
+
+#: includes/admin-dashboard.php:863
+msgid "مشخص کنید آپدیت محتواها به صورت پیش فرض در کجا نمایش داده شوند."
+msgstr "Specify where content updates should be displayed by default."
+
+#: includes/admin-dashboard.php:874
+msgid "تنظیمات آپدیت محتوای ویدیویی"
+msgstr "Video Content Update Settings"
+
+#: includes/admin-dashboard.php:878
+msgid "مشخص کنید، آپدیت محتواهای ویدیویی به صورت پیش فرض در کجا نمایش داده شود."
+msgstr "Specify where video content updates should be displayed by default."
+
+#: includes/admin-dashboard.php:912
+msgid "تنظیمات اسکیمای لیست محصولات"
+msgstr "Product List Schema Settings"
+
+#: includes/admin-dashboard.php:922
+msgid "با فعال کردن این گزینه، اسکیمای ItemList برای صفحات دسته‌بندی محصولات ووکامرس تولید می‌شود."
+msgstr "By enabling this option, the ItemList schema will be generated for WooCommerce product category pages."
+
+#: includes/admin-dashboard.php:928
+msgid "فعال‌سازی اسکیمای لیست محصولات"
+msgstr "Enable Product List Schema"
+
+#: includes/admin-dashboard.php:931
+msgid "این اسکیما در صفحات دسته‌بندی محصولات، برچسب‌های محصولات و صفحه فروشگاه نمایش داده خواهد شد."
+msgstr "This schema will be displayed on product category pages, product tag pages, and the shop page."
+
+#: includes/admin-dashboard.php:941
+msgid "برای استفاده از این قابلیت، ابتدا باید افزونه ووکامرس را نصب و فعال کنید."
+msgstr "To use this feature, you must first install and activate the WooCommerce plugin."
+
+#: includes/admin-dashboard.php:948
+msgid "تنظیمات اسکیمای Person"
+msgstr "Person Schema Settings"
+
+#: includes/admin-dashboard.php:953
+msgid "یک اسکیمای Person قبلاً ذخیره شده است. برای ایجاد اسکیمای جدید، ابتدا اسکیمای فعلی را حذف کنید."
+msgstr "A Person schema has already been saved. To create a new schema, please delete the current one first."
+
+#: includes/admin-dashboard.php:960
+msgid "نوشته هایی که اسکیما در آن نشان داده شود"
+msgstr "Posts where schema will be displayed"
+
+#: includes/admin-dashboard.php:971
+msgid "همه صفحات سایت"
+msgstr "All site pages"
+
+#: includes/admin-dashboard.php:972 includes/ajax-handlers.php:37
+msgid "صفحه اصلی"
+msgstr "Homepage"
+
+#: includes/admin-dashboard.php:973 includes/ajax-handlers.php:38
+msgid "صفحه بلاگ"
+msgstr "Blog Page"
+
+#: includes/admin-dashboard.php:974 includes/ajax-handlers.php:39
+msgid "صفحه نتایج جستجو"
+msgstr "Search Results Page"
+
+#: includes/admin-dashboard.php:975 includes/ajax-handlers.php:40
+msgid "صفحه 404"
+msgstr "404 Page"
+
+#: includes/admin-dashboard.php:1011 includes/admin-dashboard.php:1018
+msgid "نوشته"
+msgstr "Post"
+
+#: includes/admin-dashboard.php:1032
+msgid "می‌توانید چندین صفحه را انتخاب کنید. برای جستجو شروع به تایپ کنید."
+msgstr "You can select multiple pages. Start typing to search."
+
+#: includes/admin-dashboard.php:1039 includes/admin-dashboard.php:1040
+msgid "نام و نام خانوادگی"
+msgstr "First and Last Name"
+
+#: includes/admin-dashboard.php:1041
+msgid "مثال: علی ایران دوست"
+msgstr "Example: John Doe"
+
+#: includes/admin-dashboard.php:1046 includes/admin-dashboard.php:1047
+msgid "عنوان شغلی"
+msgstr "Job Title"
+
+#: includes/admin-dashboard.php:1048
+msgid "مثال: برنامه نویس وب"
+msgstr "Example: Web Developer"
+
+#: includes/admin-dashboard.php:1053
+msgid "تلفن"
+msgstr "Phone"
+
+#: includes/admin-dashboard.php:1054
+msgid "شماره تلفن"
+msgstr "Phone Number"
+
+#: includes/admin-dashboard.php:1055
+msgid "مثال: 09123456789"
+msgstr "Example: +1234567890"
+
+#: includes/admin-dashboard.php:1061
+msgid "آدرس ایمیل"
+msgstr "Email Address"
+
+#: includes/admin-dashboard.php:1062
+msgid "مثال: ali@example.com"
+msgstr "Example: john@example.com"
+
+#: includes/admin-dashboard.php:1067 includes/admin-dashboard.php:1068
+msgid "آدرس وب سایت"
+msgstr "Website URL"
+
+#: includes/admin-dashboard.php:1069
+msgid "مثال: https://example.com/ali"
+msgstr "Example: https://example.com/john"
+
+#: includes/admin-dashboard.php:1074
+msgid "تاریخ تولد (شمسی)"
+msgstr "Date of Birth (Solar Hijri)"
+
+#: includes/admin-dashboard.php:1075
+msgid "1375/05/15"
+msgstr "YYYY/MM/DD"
+
+#: includes/admin-dashboard.php:1076
+msgid "مثال: 1375/05/15"
+msgstr "Example: 1996/08/05"
+
+#: includes/admin-dashboard.php:1082
+msgid "آدرس"
+msgstr "Address"
+
+#: includes/admin-dashboard.php:1083
+msgid "آدرس محل سکونت"
+msgstr "Residential Address"
+
+#: includes/admin-dashboard.php:1084
+msgid "مثال: تهران، خیابان آزادی، پلاک 123"
+msgstr "Example: 123 Main St, Anytown, USA"
+
+#: includes/admin-dashboard.php:1089
+msgid "تصویر"
+msgstr "Image"
+
+#: includes/admin-dashboard.php:1093
+msgid "انتخاب تصویر"
+msgstr "Select Image"
+
+#: includes/admin-dashboard.php:1098
+msgid "پیش‌نمایش تصویر"
+msgstr "Image Preview"
+
+#: includes/admin-dashboard.php:1101
+msgid "عکس خود را از رسانه انتخاب کنید"
+msgstr "Select your photo from the media library"
+
+#: includes/admin-dashboard.php:1106
+msgid "توضیحات"
+msgstr "Description"
+
+#: includes/admin-dashboard.php:1107
+msgid "توضیحات کوتاه درباره خودتان"
+msgstr "Short description about yourself"
+
+#: includes/admin-dashboard.php:1108
+msgid "مثال: یک برنامه نویس عاشق کد و قهوه"
+msgstr "Example: A developer who loves code and coffee"
+
+#: includes/admin-dashboard.php:1113
+msgid "شبکه های اجتماعی"
+msgstr "Social Networks"
+
+#: includes/admin-dashboard.php:1120
+msgid "https://twitter.com/username"
+msgstr "https://twitter.com/username"
+
+#: includes/admin-dashboard.php:1126
+msgid "افزودن شبکه اجتماعی"
+msgstr "Add Social Network"
+
+#: includes/admin-dashboard.php:1128
+msgid "مثال: https://twitter.com/alimohammadi"
+msgstr "Example: https://twitter.com/johndoe"
+
+#: includes/admin-dashboard.php:1135
+msgid "ذخیره اسکیما"
+msgstr "Save Schema"
+
+#: includes/admin-dashboard.php:1139
+msgid "بروزرسانی اسکیما"
+msgstr "Update Schema"
+
+#: includes/admin-dashboard.php:1142
+msgid "حذف اسکیما"
+msgstr "Delete Schema"
+
+#: includes/admin-reports.php:26
+#, php-format
+msgid "%d مورد"
+msgid_plural "%d مورد"
+msgstr[0] "%d item"
+msgstr[1] "%d items"
+
+#: includes/admin-reports.php:42 includes/admin-reports.php:483
+msgid "از"
+msgstr "From"
+
+#: includes/admin-reports.php:115
+msgid "آمار محتواهای تولید شده با آپدیت دسته جمعی"
+msgstr "Statistics of content generated via bulk update"
+
+#: includes/admin-reports.php:120
+msgid "تعداد پست‌های دارای محتوای bulk"
+msgstr "Number of posts with bulk content"
+
+#: includes/admin-reports.php:125
+msgid "مجموع محتواهای تولید شده"
+msgstr "Total generated content"
+
+#: includes/admin-reports.php:131
+msgid "لیست پست‌های دارای محتوای bulk:"
+msgstr "List of posts with bulk content:"
+
+#: includes/admin-reports.php:142 includes/admin-reports.php:314 includes/admin-reports.php:454
+msgid "عنوان پست"
+msgstr "Post Title"
+
+#: includes/admin-reports.php:143
+msgid "تعداد محتوا"
+msgstr "Content Count"
+
+#: includes/admin-reports.php:161 includes/admin-reports.php:248 includes/admin-reports.php:343 includes/admin-reports.php:497
+msgid "مشاهده"
+msgstr "View"
+
+#: includes/admin-reports.php:182
+msgid "آمار تصاویر شاخص تولید شده با آپدیت دسته جمعی"
+msgstr "Statistics of featured images generated via bulk update"
+
+#: includes/admin-reports.php:193
+msgid "تعداد پست‌های دارای تصویر bulk"
+msgstr "Number of posts with bulk images"
+
+#: includes/admin-reports.php:203
+msgid "تصاویر شاخص فعال"
+msgstr "Active Featured Images"
+
+#: includes/admin-reports.php:209
+msgid "لیست پست‌های دارای تصویر شاخص bulk:"
+msgstr "List of posts with bulk featured images:"
+
+#: includes/admin-reports.php:243
+msgid "نامشخص"
+msgstr "Unknown"
+
+#: includes/admin-reports.php:252
+msgid "دانلود"
+msgstr "Download"
+
+#: includes/admin-reports.php:272
+msgid "آمار کامنت‌های تولید شده با آپدیت دسته جمعی"
+msgstr "Statistics of comments generated via bulk update"
+
+#: includes/admin-reports.php:281
+msgid "تعداد پست‌های دارای کامنت bulk"
+msgstr "Number of posts with bulk comments"
+
+#: includes/admin-reports.php:289
+msgid "مجموع کامنت‌های تولید شده"
+msgstr "Total generated comments"
+
+#: includes/admin-reports.php:297
+msgid "لحن کامنت‌ها"
+msgstr "Comments Tone"
+
+#: includes/admin-reports.php:303
+msgid "لیست پست‌های دارای کامنت bulk:"
+msgstr "List of posts with bulk comments:"
+
+#: includes/admin-reports.php:315
+msgid "تعداد کامنت"
+msgstr "Comment Count"
+
+#: includes/admin-reports.php:316
+msgid "آخرین کامنت"
+msgstr "Last Comment"
+
+#: includes/admin-reports.php:346 includes/migrations/class-gzseo-migration-manager.php:382
+msgid "کامنت‌ها"
+msgstr "Comments"
+
+#: includes/admin-reports.php:351 includes/admin-reports.php:393 includes/admin-reports.php:398
+msgid "حذف کامنت‌ها"
+msgstr "Delete Comments"
+
+#: includes/admin-reports.php:376 includes/admin-reports.php:543 includes/migrations/class-gzseo-migration-manager.php:348
+msgid "در حال حذف..."
+msgstr "Deleting..."
+
+#: includes/admin-reports.php:392
+msgid "خطا در حذف کامنت‌ها"
+msgstr "Error deleting comments"
+
+#: includes/admin-reports.php:397 includes/admin-reports.php:576 includes/class-gzseo-ai-api.php:227 includes/class-gzseo-ai-api.php:276 includes/class-gzseo-ai-api.php:329 includes/class-gzseo-ai-api.php:446 includes/class-gzseo-ai-api.php:522 includes/class-gzseo-title-description-generator.php:77
+msgid "خطا در ارتباط با سرور"
+msgstr "Server connection error"
+
+#: includes/admin-reports.php:412
+msgid "آمار ویدیوهای تولید شده با آپدیت دسته جمعی"
+msgstr "Statistics of videos generated via bulk update"
+
+#: includes/admin-reports.php:421
+msgid "تعداد پست‌های دارای ویدیو bulk"
+msgstr "Number of posts with bulk videos"
+
+#: includes/admin-reports.php:429
+msgid "مجموع ویدیوهای یافت شده"
+msgstr "Total videos found"
+
+#: includes/admin-reports.php:436 includes/class-gzseo-content-update.php:206 includes/class-gzseo-content-update.php:229 includes/class-gzseo-content-update.php:805 includes/class-gzseo-content-update.php:822 includes/class-gzseo-video-update.php:755 includes/class-gzseo-video-update.php:1001 includes/class-gzseo-video-update.php:1589
+msgid "غیرفعال"
+msgstr "Inactive"
+
+#: includes/admin-reports.php:437
+msgid "وضعیت پیش‌فرض"
+msgstr "Default Status"
+
+#: includes/admin-reports.php:443
+msgid "لیست پست‌های دارای ویدیو bulk:"
+msgstr "List of posts with bulk videos:"
+
+#: includes/admin-reports.php:455
+msgid "تعداد ویدیو"
+msgstr "Video Count"
+
+#: includes/admin-reports.php:456
+msgid "ویدیوهای فعال"
+msgstr "Active Videos"
+
+#: includes/admin-reports.php:457
+msgid "تاریخ آپدیت"
+msgstr "Update Date"
+
+#: includes/admin-reports.php:505
+msgid "حذف ویدیوها"
+msgstr "Delete Videos"
+
+#: includes/admin-reports.php:522
+msgid "راهنما"
+msgstr "Guide"
+
+#: includes/admin-reports.php:525
+msgid "ویدیوهای تولید شده با آپدیت دسته جمعی به صورت پیش‌فرض غیرفعال هستند."
+msgstr "Videos generated via bulk update are inactive by default."
+
+#: includes/admin-reports.php:526
+msgid "برای فعال‌سازی ویدیوها، به صفحه ویرایش پست مراجعه کرده و در تب \"آپدیت ویدیویی\" ویدیوهای مورد نظر را فعال کنید."
+msgstr "To activate videos, go to the post edit page and activate the desired videos in the \"Video Update\" tab."
+
+#: includes/admin-reports.php:527
+msgid "موقعیت نمایش ویدیوها بر اساس تنظیمات پیکربندی افزونه تعیین می‌شود."
+msgstr "The display position of videos is determined by the plugin's configuration settings."
+
+#: includes/admin-reports.php:528
+msgid "می‌توانید ویدیوهای bulk را به صورت دسته جمعی از این صفحه حذف کنید."
+msgstr "You can bulk delete bulk videos from this page."
+
+#: includes/admin-reports.php:571
+msgid "خطا در حذف ویدیوها: "
+msgstr "Error deleting videos: "
+
+#: includes/ajax-handlers.php:34
+msgid "⚡ صفحات خاص"
+msgstr "⚡ Specific Pages"
+
+#: includes/ajax-handlers.php:36
+msgid "🌐 همه صفحات سایت"
+msgstr "🌐 All Site Pages"
+
+#: includes/ajax-handlers.php:63
+msgid "📝 نوشته‌ها"
+msgstr "📝 Posts"
+
+#: includes/ajax-handlers.php:70 includes/ajax-handlers.php:101 includes/ajax-handlers.php:196
+msgid "بدون عنوان"
+msgstr "Untitled"
+
+#: includes/ajax-handlers.php:94
+msgid "📄 برگه‌ها"
+msgstr "📄 Pages"
+
+#: includes/ajax-handlers.php:125
+msgid "📁 دسته‌بندی‌ها"
+msgstr "📁 Categories"
+
+#: includes/ajax-handlers.php:132 includes/ajax-handlers.php:163
+#, php-format
+msgid "%d نوشته"
+msgid_plural "%d نوشته"
+msgstr[0] "%d post"
+msgstr[1] "%d posts"
+
+#: includes/ajax-handlers.php:156
+msgid "🏷️ برچسب‌ها"
+msgstr "🏷️ Tags"
+
+#: includes/ajax-handlers.php:189
+msgid "🛍️ محصولات"
+msgstr "🛍️ Products"
+
+#: includes/ajax-handlers.php:214
+msgid "🛒 دسته‌بندی محصولات"
+msgstr "🛒 Product Categories"
+
+#: includes/ajax-handlers.php:221
+#, php-format
+msgid "%d محصول"
+msgid_plural "%d محصول"
+msgstr[0] "%d product"
+msgstr[1] "%d products"
+
+#: includes/class-gzseo-ai-api.php:100
+msgid "پرداخت با موفقیت انجام شد!"
+msgstr "Payment successful!"
+
+#: includes/class-gzseo-ai-api.php:101
+msgid "اعتبار شما به حساب کاربری اضافه شده است."
+msgstr "Credit has been added to your account."
+
+#: includes/class-gzseo-ai-api.php:110
+msgid "پرداخت ناموفق!"
+msgstr "Payment failed!"
+
+#: includes/class-gzseo-ai-api.php:111
+msgid "تراکنش انجام نشد. در صورت کسر وجه، مبلغ ظرف ۷۲ ساعت به حساب شما بازگردانده خواهد شد."
+msgstr "The transaction was not completed. If you were charged, the amount will be refunded to your account within 72 hours."
+
+#: includes/class-gzseo-ai-api.php:122 includes/class-gzseo-ai-api.php:415 includes/class-gzseo-ai-api.php:475
+msgid "خطای امنیتی - لطفا صفحه را رفرش کنید"
+msgstr "Security error - please refresh the page"
+
+#: includes/class-gzseo-ai-api.php:139
+msgid "لطفا ایمیل و رمز عبور را وارد کنید"
+msgstr "Please enter email and password"
+
+#: includes/class-gzseo-ai-api.php:156 includes/class-gzseo-video-update.php:163
+msgid "خطا در اتصال به سرور"
+msgstr "Error connecting to server"
+
+#: includes/class-gzseo-ai-api.php:173
+msgid "ورود موفقیت آمیز بود"
+msgstr "Login successful"
+
+#: includes/class-gzseo-ai-api.php:178
+msgid "خطا در ورود"
+msgstr "Login error"
+
+#: includes/class-gzseo-ai-api.php:186 includes/class-gzseo-ai-api.php:205 includes/class-gzseo-ai-api.php:264 includes/class-gzseo-ai-api.php:307 includes/class-gzseo-table-styles.php:42 includes/class-gzseo-video-update.php:131 includes/class-gzseo-video-update.php:366 includes/class-gzseo-video-update.php:538 includes/class-gzseo-video-update.php:1217 includes/class-gzseo-video-update.php:1240 includes/class-gzseo-video-update.php:1258 includes/class-gzseo-video-update.php:1663 includes/class-gzseo-video-update.php:1815
+#: includes/class-gzseo-video-update.php:1930 includes/class-gzseo-video-update.php:1950 includes/migrations/class-gzseo-migration-manager.php:418
+msgid "دسترسی غیرمجاز"
+msgstr "Unauthorized access"
+
+#: includes/class-gzseo-ai-api.php:196
+msgid "خروج موفقیت آمیز بود"
+msgstr "Logout successful"
+
+#: includes/class-gzseo-ai-api.php:212
+msgid "لطفا همه فیلدها را پر کنید"
+msgstr "Please fill in all fields"
+
+#: includes/class-gzseo-ai-api.php:234 includes/class-gzseo-ai-api.php:283 includes/class-gzseo-bulk-execute.php:717 includes/class-gzseo-video-update.php:170
+msgid "خطا در پردازش پاسخ سرور"
+msgstr "Error processing server response"
+
+#: includes/class-gzseo-ai-api.php:244
+msgid "لطفا یک ایمیل معتبر وارد کنید."
+msgstr "Please enter a valid email."
+
+#: includes/class-gzseo-ai-api.php:247
+msgid "این ایمیل قبلا استفاده شده است.لطفا ایمیل دیگری وارد نمایید."
+msgstr "This email is already in use. Please enter a different email."
+
+#: includes/class-gzseo-ai-api.php:254 includes/class-gzseo-title-description-generator.php:495 includes/class-gzseo-title-description-generator.php:757
+msgid "پاسخ نامعتبر از سرور"
+msgstr "Invalid response from server"
+
+#: includes/class-gzseo-ai-api.php:314 includes/class-gzseo-table-generator.php:290 includes/class-gzseo-table-generator.php:350 includes/class-gzseo-table-generator.php:399
+msgid "اطلاعات ناقص است"
+msgstr "Incomplete information"
+
+#: includes/class-gzseo-ai-api.php:336
+msgid "خطا در ایجاد لینک پرداخت"
+msgstr "Error creating payment link"
+
+#: includes/class-gzseo-ai-api.php:373
+msgid "تومان"
+msgstr "Toman"
+
+#: includes/class-gzseo-ai-api.php:424
+msgid "لطفا ایمیل خود را وارد کنید"
+msgstr "Please enter your email"
+
+#: includes/class-gzseo-ai-api.php:429
+msgid "لطفا یک ایمیل معتبر وارد کنید"
+msgstr "Please enter a valid email"
+
+#: includes/class-gzseo-ai-api.php:463
+msgid "خطا در ارسال ایمیل"
+msgstr "Error sending email"
+
+#: includes/class-gzseo-ai-api.php:484
+msgid "جلسه منقضی شده، لطفا دوباره درخواست بازیابی رمز دهید"
+msgstr "Session expired, please request password reset again"
+
+#: includes/class-gzseo-ai-api.php:493
+msgid "لطفا کد تایید را وارد کنید"
+msgstr "Please enter the verification code"
+
+#: includes/class-gzseo-ai-api.php:498
+msgid "لطفا رمز عبور جدید را وارد کنید"
+msgstr "Please enter the new password"
+
+#: includes/class-gzseo-ai-api.php:503
+msgid "رمز عبور باید حداقل 6 کاراکتر باشد"
+msgstr "Password must be at least 6 characters long"
+
+#: includes/class-gzseo-ai-api.php:545
+msgid "خطا در تغییر رمز عبور"
+msgstr "Error changing password"
+
+#: includes/class-gzseo-bulk-execute.php:26 includes/class-gzseo-bulk-execute.php:275 includes/class-gzseo-bulk-execute.php:473 includes/class-gzseo-bulk-execute.php:666 includes/class-gzseo-bulk-execute.php:974 includes/class-gzseo-comment-generator-ai.php:177 includes/class-gzseo-featured-image-ai.php:60 includes/class-gzseo-featured-image-ai.php:100 includes/class-gzseo-table-generator.php:120 includes/class-gzseo-title-description-generator.php:78
+msgid "لطفا ابتدا وارد حساب هوش مصنوعی شوید"
+msgstr "Please log in to your AI account first"
+
+#: includes/class-gzseo-bulk-execute.php:41 includes/class-gzseo-bulk-execute.php:297 includes/class-gzseo-bulk-execute.php:493 includes/class-gzseo-content-update.php:272 includes/class-gzseo-title-description-generator.php:436
+msgid "پست یافت نشد"
+msgstr "Post not found"
+
+#: includes/class-gzseo-bulk-execute.php:68 includes/class-gzseo-bulk-execute.php:342 includes/class-gzseo-bulk-execute.php:525 includes/class-gzseo-bulk-execute.php:707 includes/class-gzseo-bulk-execute.php:1030 includes/class-gzseo-comment-generator-ai.php:230 includes/class-gzseo-featured-image-ai.php:149
+msgid "خطا در اتصال به سرور: "
+msgstr "Error connecting to server: "
+
+#: includes/class-gzseo-bulk-execute.php:78 includes/class-gzseo-content-update.php:311 includes/class-gzseo-content-update.php:929
+msgid "خطا در دریافت پاسخ از سرور"
+msgstr "Error receiving response from server"
+
+#: includes/class-gzseo-bulk-execute.php:88 includes/class-gzseo-table-generator.php:174
+msgid "خطا در پردازش جدول"
+msgstr "Error processing table"
+
+#: includes/class-gzseo-bulk-execute.php:141
+msgid "جدول با موفقیت ایجاد شد"
+msgstr "Table created successfully"
+
+#: includes/class-gzseo-bulk-execute.php:219 includes/class-gzseo-table-generator.php:226
+msgid "حذف سطر"
+msgstr "Delete Row"
+
+#: includes/class-gzseo-bulk-execute.php:241 includes/class-gzseo-table-generator.php:248
+msgid "حذف ستون"
+msgstr "Delete Column"
+
+#: includes/class-gzseo-bulk-execute.php:288 includes/class-gzseo-bulk-execute.php:484 includes/class-gzseo-bulk-execute.php:677 includes/class-gzseo-bulk-execute.php:987
+msgid "اطلاعات احراز هویت یافت نشد"
+msgstr "Authentication information not found"
+
+#: includes/class-gzseo-bulk-execute.php:352 includes/class-gzseo-bulk-execute.php:535
+msgid "خطا در دریافت پاسخ از سرور (Status: "
+msgstr "Error receiving response from server (Status: "
+
+#: includes/class-gzseo-bulk-execute.php:362 includes/class-gzseo-comment-generator-ai.php:250
+msgid "هیچ کامنتی در پاسخ دریافتی یافت نشد"
+msgstr "No comments found in the received response"
+
+#: includes/class-gzseo-bulk-execute.php:414
+#, php-format
+msgid "%d کامنت با موفقیت تولید و منتشر شد"
+msgid_plural "%d کامنت با موفقیت تولید و منتشر شد"
+msgstr[0] "%d comment was successfully generated and published"
+msgstr[1] "%d comments were successfully generated and published"
+
+#: includes/class-gzseo-bulk-execute.php:552
+msgid "محتوای دریافتی خالی است"
+msgstr "Received content is empty"
+
+#: includes/class-gzseo-bulk-execute.php:559
+msgid "پاسخی یافت نشد، داده محتوا کافی نیست."
+msgstr "No response found, content data is insufficient."
+
+#: includes/class-gzseo-bulk-execute.php:608
+msgid "خطا در ذخیره محتوا در دیتابیس"
+msgstr "Error saving content to database"
+
+#: includes/class-gzseo-bulk-execute.php:624
+msgid "محتوا با موفقیت تولید و ذخیره شد"
+msgstr "Content generated and saved successfully"
+
+#: includes/class-gzseo-bulk-execute.php:686 includes/class-gzseo-bulk-execute.php:996 includes/class-gzseo-featured-image-ai.php:114
+msgid "عنوان پست یافت نشد"
+msgstr "Post title not found"
+
+#: includes/class-gzseo-bulk-execute.php:736
+msgid "هیچ ویدیویی یافت نشد"
+msgstr "No videos found"
+
+#: includes/class-gzseo-bulk-execute.php:780
+#, php-format
+msgid "%d ویدیو جدید از طریق آپدیت دسته جمعی اضافه شد"
+msgid_plural "%d ویدیو جدید از طریق آپدیت دسته جمعی اضافه شد"
+msgstr[0] "%d new video was added via bulk update"
+msgstr[1] "%d new videos were added via bulk update"
+
+#: includes/class-gzseo-bulk-execute.php:786
+#, php-format
+msgid " (همراه با %d ویدیو دستی قبلی)"
+msgid_plural " (همراه با %d ویدیو دستی قبلی)"
+msgstr[0] " (along with %d previous manual video)"
+msgstr[1] " (along with %d previous manual videos)"
+
+#: includes/class-gzseo-bulk-execute.php:1044 includes/class-gzseo-featured-image-ai.php:164
+msgid "آدرس تصویر دریافت نشد"
+msgstr "Image URL not received"
+
+#: includes/class-gzseo-bulk-execute.php:1054 includes/class-gzseo-featured-image-ai.php:172
+msgid "خطا در ذخیره تصویر: "
+msgstr "Error saving image: "
+
+#: includes/class-gzseo-bulk-execute.php:1070 includes/class-gzseo-featured-image-ai.php:275
+msgid "خطا در تنظیم تصویر شاخص"
+msgstr "Error setting featured image"
+
+#: includes/class-gzseo-bulk-execute.php:1081
+msgid "تصویر شاخص با موفقیت تولید و تنظیم شد"
+msgstr "Featured image generated and set successfully"
+
+#: includes/class-gzseo-bulk-execute.php:1113
+msgid "تصویر شاخص تولید شده با هوش مصنوعی (آپدیت دسته جمعی)"
+msgstr "AI-generated featured image (Bulk Update)"
+
+#: includes/class-gzseo-bulk-execute.php:1114 includes/class-gzseo-featured-image-ai.php:241
+msgid "تصویر شاخص تولید شده توسط هوش مصنوعی"
+msgstr "AI-generated featured image"
+
+#: includes/class-gzseo-comment-generator-ai.php:43
+msgid "هر دقیقه"
+msgstr "Every minute"
+
+#: includes/class-gzseo-comment-generator-ai.php:93
+msgid "Comment Generator Ajax is working!"
+msgstr "Comment Generator Ajax is working!"
+
+#: includes/class-gzseo-comment-generator-ai.php:127
+msgid "در حال تولید کامنت‌ها..."
+msgstr "Generating comments..."
+
+#: includes/class-gzseo-comment-generator-ai.php:128
+msgid "کامنت‌ها با موفقیت تولید شد"
+msgstr "Comments generated successfully"
+
+#: includes/class-gzseo-comment-generator-ai.php:129
+msgid "خطا در تولید کامنت‌ها"
+msgstr "Error generating comments"
+
+#: includes/class-gzseo-comment-generator-ai.php:130
+msgid "آیا از حذف این کامنت مطمئن هستید؟"
+msgstr "Are you sure you want to delete this comment?"
+
+#: includes/class-gzseo-comment-generator-ai.php:131 includes/class-gzseo-content-update.php:73 includes/class-gzseo-title-description-generator.php:73
+msgid "در حال ذخیره..."
+msgstr "Saving..."
+
+#: includes/class-gzseo-comment-generator-ai.php:132 includes/class-gzseo-content-update.php:74
+msgid "ذخیره شد"
+msgstr "Saved"
+
+#: includes/class-gzseo-comment-generator-ai.php:133 includes/class-gzseo-content-update.php:75
+msgid "در حال انتشار..."
+msgstr "Publishing..."
+
+#: includes/class-gzseo-comment-generator-ai.php:134 includes/class-gzseo-content-update.php:76
+msgid "منتشر شد"
+msgstr "Published"
+
+#: includes/class-gzseo-comment-generator-ai.php:165
+msgid "Ajax handler is working!"
+msgstr "Ajax handler is working!"
+
+#: includes/class-gzseo-comment-generator-ai.php:171 includes/class-gzseo-comment-generator-ai.php:667
+msgid "خطای امنیتی - nonce نامعتبر"
+msgstr "Security error - invalid nonce"
+
+#: includes/class-gzseo-comment-generator-ai.php:197
+msgid "در صورتی که عنوان و محتوا خالی هستند، باید حداقل یک کلمه کلیدی وارد کنید"
+msgstr "If the title and content are empty, you must enter at least one keyword"
+
+#: includes/class-gzseo-comment-generator-ai.php:202
+msgid "حداکثر تعداد کلمات برای ساخت کامنت 500 عدد می باشد."
+msgstr "The maximum number of words for comment generation is 500."
+
+#: includes/class-gzseo-comment-generator-ai.php:242 includes/class-gzseo-table-generator.php:166
+#, php-format
+msgid "خطا در دریافت پاسخ از سرور (Status: %s)"
+msgstr "Error receiving response from server (Status: %s)"
+
+#: includes/class-gzseo-comment-generator-ai.php:288
+#, php-format
+msgid "%d کامنت با موفقیت تولید شد"
+msgid_plural "%d کامنت با موفقیت تولید شد"
+msgstr[0] "%d comment was successfully generated"
+msgstr[1] "%d comments were successfully generated"
+
+#: includes/class-gzseo-comment-generator-ai.php:310
+msgid "هیچ کامنتی برای ذخیره وجود ندارد"
+msgstr "There are no comments to save"
+
+#: includes/class-gzseo-comment-generator-ai.php:345
+msgid "خطا در ذخیره پیش‌نویس: "
+msgstr "Error saving draft: "
+
+#: includes/class-gzseo-comment-generator-ai.php:365
+msgid "خطا در زمان‌بندی: "
+msgstr "Error scheduling: "
+
+#: includes/class-gzseo-comment-generator-ai.php:390
+msgid "خطا در انتشار کامنت: "
+msgstr "Error publishing comment: "
+
+#: includes/class-gzseo-comment-generator-ai.php:398
+#, php-format
+msgid "%d کامنت منتشر شد"
+msgid_plural "%d کامنت منتشر شد"
+msgstr[0] "%d comment published"
+msgstr[1] "%d comments published"
+
+#: includes/class-gzseo-comment-generator-ai.php:401
+#, php-format
+msgid "%d کامنت به صورت پیش‌نویس ذخیره شد"
+msgid_plural "%d کامنت به صورت پیش‌نویس ذخیره شد"
+msgstr[0] "%d comment saved as draft"
+msgstr[1] "%d comments saved as draft"
+
+#: includes/class-gzseo-comment-generator-ai.php:404
+#, php-format
+msgid "%d کامنت زمان‌بندی شد (در حال حاضر به صورت غیرفعال)"
+msgid_plural "%d کامنت زمان‌بندی شد (در حال حاضر به صورت غیرفعال)"
+msgstr[0] "%d comment scheduled (currently inactive)"
+msgstr[1] "%d comments scheduled (currently inactive)"
+
+#: includes/class-gzseo-comment-generator-ai.php:410
+msgid "(برخی کامنت‌ها با خطا مواجه شدند)"
+msgstr "(Some comments encountered an error)"
+
+#: includes/class-gzseo-comment-generator-ai.php:626
+msgid "کامنت با موفقیت بروزرسانی شد"
+msgstr "Comment updated successfully"
+
+#: includes/class-gzseo-comment-generator-ai.php:639
+msgid "کامنت حذف شد"
+msgstr "Comment deleted"
+
+#: includes/class-gzseo-comment-generator-ai.php:675
+msgid "پارامترهای نامعتبر"
+msgstr "Invalid parameters"
+
+#: includes/class-gzseo-comment-generator-ai.php:686
+msgid "فایل کلمات کلیدی یافت نشد"
+msgstr "Keywords file not found"
+
+#: includes/class-gzseo-comment-generator-ai.php:701
+msgid "کلمات کلیدی سرچ کنسول"
+msgstr "Search Console Keywords"
+
+#: includes/class-gzseo-comment-generator-ai.php:702
+msgid "روی هر کلمه کلیدی کلیک کنید تا اضافه شود"
+msgstr "Click on any keyword to add it"
+
+#: includes/class-gzseo-comment-generator-ai.php:709
+msgid "کلیک کنید تا اضافه شود"
+msgstr "Click to add"
+
+#: includes/class-gzseo-comment-generator-ai.php:714
+msgid "کلیک‌ها"
+msgstr "Clicks"
+
+#: includes/class-gzseo-comment-generator-ai.php:718
+msgid "نمایش‌ها"
+msgstr "Impressions"
+
+#: includes/class-gzseo-comment-generator-ai.php:723
+msgid "رتبه میانگین"
+msgstr "Average Position"
+
+#: includes/class-gzseo-comment-generator-ai.php:729
+msgid "نرخ کلیک"
+msgstr "Click-through Rate"
+
+#: includes/class-gzseo-comment-generator-ai.php:741
+msgid "کلمات کلیدی برای این صفحه یافت نشد"
+msgstr "No keywords found for this page"
+
+#: includes/class-gzseo-comment-generator-ai.php:743
+msgid "ممکن است به سرچ کنسول متصل نباشید یا این صفحه ترافیکی نداشته باشد"
+msgstr "You may not be connected to Search Console or this page has no traffic"
+
+#: includes/class-gzseo-comment-generator-ai.php:755
+msgid "خطا در دریافت کلمات کلیدی: "
+msgstr "Error receiving keywords: "
+
+#: includes/class-gzseo-comment-generator-ai.php:775
+msgid "برای استفاده از تولید کامنت با هوش مصنوعی، ابتدا باید وارد حساب کاربری خود شوید."
+msgstr "To use AI comment generation, you must first log in to your account."
+
+#: includes/class-gzseo-comment-generator-ai.php:777 includes/class-gzseo-content-update.php:98 includes/class-gzseo-content-update.php:695 includes/class-gzseo-featured-image-ai.php:320 includes/class-gzseo-table-generator.php:564 includes/class-gzseo-table-generator.php:701 includes/class-gzseo-title-description-generator.php:340 includes/class-gzseo-title-description-generator.php:640 includes/class-gzseo-video-update.php:625 includes/class-gzseo-video-update.php:1456
+msgid "ورود به حساب هوش مصنوعی"
+msgstr "Login to AI Account"
+
+#: includes/class-gzseo-comment-generator-ai.php:793
+#, php-format
+msgid "کامنت‌ها بر اساس عنوان \"<strong>%s</strong>\" و محتوای این پست تولید خواهند شد."
+msgstr "Comments will be generated based on the title \"<strong>%s</strong>\" and the content of this post."
+
+#: includes/class-gzseo-comment-generator-ai.php:797
+msgid "کلمات کلیدی:"
+msgstr "Keywords:"
+
+#: includes/class-gzseo-comment-generator-ai.php:800
+msgid "کلمات کلیدی را وارد کنید"
+msgstr "Enter keywords"
+
+#: includes/class-gzseo-comment-generator-ai.php:802
+msgid "افزودن"
+msgstr "Add"
+
+#: includes/class-gzseo-comment-generator-ai.php:806
+msgid "برای اضافه کردن هر کلمه کلیدی، آن را تایپ کرده و Enter بزنید یا دکمه افزودن را کلیک کنید"
+msgstr "To add each keyword, type it and press Enter or click the Add button"
+
+#: includes/class-gzseo-comment-generator-ai.php:812
+msgid "در حال دریافت کلمات کلیدی از سرچ کنسول..."
+msgstr "Receiving keywords from Search Console..."
+
+#: includes/class-gzseo-comment-generator-ai.php:819
+msgid "تعداد کلمات:"
+msgstr "Word Count:"
+
+#: includes/class-gzseo-comment-generator-ai.php:825
+msgid "لحن محتوا:"
+msgstr "Content Tone:"
+
+#: includes/class-gzseo-comment-generator-ai.php:844
+msgid "جنسیت نویسندگان:"
+msgstr "Author Gender:"
+
+#: includes/class-gzseo-comment-generator-ai.php:846
+msgid "ترکیبی (مذکر و مونث)"
+msgstr "Mixed (Male and Female)"
+
+#: includes/class-gzseo-comment-generator-ai.php:847
+msgid "فقط مذکر"
+msgstr "Male Only"
+
+#: includes/class-gzseo-comment-generator-ai.php:848
+msgid "فقط مونث"
+msgstr "Female Only"
+
+#: includes/class-gzseo-comment-generator-ai.php:850
+msgid "انتخاب کنید که نام نویسندگان کامنت‌ها از چه جنسیتی انتخاب شوند"
+msgstr "Choose the gender for the comment authors' names"
+
+#: includes/class-gzseo-comment-generator-ai.php:856
+msgid "تاریخ تصادفی (30 روز گذشته)"
+msgstr "Random date (last 30 days)"
+
+#: includes/class-gzseo-comment-generator-ai.php:862
+msgid "تولید کامنت‌ها"
+msgstr "Generate Comments"
+
+#: includes/class-gzseo-comment-generator-ai.php:868
+msgid "کامنت‌های تولید شده:"
+msgstr "Generated Comments:"
+
+#: includes/class-gzseo-comment-generator-ai.php:872
+msgid "ذخیره نهایی کامنت‌ها"
+msgstr "Final Save Comments"
+
+#: includes/class-gzseo-comment-generator-ai.php:875 includes/class-gzseo-featured-image-ai.php:369 includes/class-gzseo-table-generator.php:619 includes/class-gzseo-table-generator.php:660 includes/class-gzseo-table-generator.php:757 includes/class-gzseo-table-generator.php:798
+msgid "انصراف"
+msgstr "Cancel"
+
+#: includes/class-gzseo-comment-generator-ai.php:992
+msgid " آپدیت دسته جمعی"
+msgstr " Bulk Update"
+
+#: includes/class-gzseo-comment-generator-ai.php:1003
+msgid "منبع تولید"
+msgstr "Generation Source"
+
+#: includes/class-gzseo-comment-generator-ai.php:1014 includes/class-gzseo-featured-image-ai.php:457 includes/class-gzseo-featured-image-ai.php:477
+msgid "تولید شده با آپدیت دسته جمعی"
+msgstr "Generated via Bulk Update"
+
+#: includes/class-gzseo-comment-generator-ai.php:1015 includes/class-gzseo-content-update.php:211 includes/class-gzseo-featured-image-ai.php:478
+msgid "دسته جمعی"
+msgstr "Bulk"
+
+#: includes/class-gzseo-comment-generator-ai.php:1018
+msgid "تولید شده با هوش مصنوعی"
+msgstr "Generated with AI"
+
+#: includes/class-gzseo-comment-generator-ai.php:1019
+msgid "تکی"
+msgstr "Single"
+
+#: includes/class-gzseo-comment-generator-ai.php:1040
+msgid "شناسه پست نامعتبر است"
+msgstr "Invalid post ID"
+
+#: includes/class-gzseo-comment-generator-ai.php:1049
+#, php-format
+msgid "%d کامنت bulk با موفقیت حذف شد"
+msgid_plural "%d کامنت bulk با موفقیت حذف شد"
+msgstr[0] "%d bulk comment was successfully deleted"
+msgstr[1] "%d bulk comments were successfully deleted"
+
+#: includes/class-gzseo-comment-generator-ai.php:1053
+msgid "هیچ کامنت bulk برای حذف یافت نشد"
+msgstr "No bulk comments found to delete"
+
+#: includes/class-gzseo-content-update.php:69
+msgid "در حال تولید محتوا..."
+msgstr "Generating content..."
+
+#: includes/class-gzseo-content-update.php:70 includes/class-gzseo-content-update.php:329 includes/class-gzseo-content-update.php:944
+msgid "محتوا با موفقیت تولید شد"
+msgstr "Content generated successfully"
+
+#: includes/class-gzseo-content-update.php:71
+msgid "خطا در تولید محتوا"
+msgstr "Error generating content"
+
+#: includes/class-gzseo-content-update.php:72
+msgid "آیا از حذف این محتوا مطمئن هستید؟"
+msgstr "Are you sure you want to delete this content?"
+
+#: includes/class-gzseo-content-update.php:96 includes/class-gzseo-content-update.php:693
+msgid "برای استفاده از قابلیت آپدیت محتوایی با هوش مصنوعی، ابتدا باید وارد حساب کاربری خود شوید."
+msgstr "To use the AI content update feature, you must first log in to your account."
+
+#: includes/class-gzseo-content-update.php:108 includes/class-gzseo-content-update.php:708
+msgid "تعداد پاراگراف"
+msgstr "Number of Paragraphs"
+
+#: includes/class-gzseo-content-update.php:117 includes/class-gzseo-content-update.php:717
+msgid "حداقل کلمات"
+msgstr "Minimum Words"
+
+#: includes/class-gzseo-content-update.php:126 includes/class-gzseo-content-update.php:726
+msgid "حداکثر کلمات"
+msgstr "Maximum Words"
+
+#: includes/class-gzseo-content-update.php:136 includes/class-gzseo-content-update.php:736
+msgid "تولید محتوا با هوش مصنوعی"
+msgstr "Generate Content with AI"
+
+#: includes/class-gzseo-content-update.php:146 includes/class-gzseo-content-update.php:746
+msgid "پیش‌نمایش محتوای تولید شده"
+msgstr "Preview Generated Content"
+
+#: includes/class-gzseo-content-update.php:161 includes/class-gzseo-content-update.php:761 includes/class-gzseo-table-generator.php:608 includes/class-gzseo-table-generator.php:646 includes/class-gzseo-table-generator.php:746 includes/class-gzseo-table-generator.php:784
+msgid "موقعیت نمایش:"
+msgstr "Display Position:"
+
+#: includes/class-gzseo-content-update.php:164 includes/class-gzseo-content-update.php:444 includes/class-gzseo-content-update.php:764 includes/class-gzseo-table-generator.php:610 includes/class-gzseo-table-generator.php:648 includes/class-gzseo-table-generator.php:748 includes/class-gzseo-table-generator.php:786 includes/class-gzseo-video-update.php:650 includes/class-gzseo-video-update.php:1484
+msgid "ابتدای محتوا"
+msgstr "Beginning of content"
+
+#: includes/class-gzseo-content-update.php:165 includes/class-gzseo-content-update.php:445 includes/class-gzseo-content-update.php:765 includes/class-gzseo-table-generator.php:611 includes/class-gzseo-table-generator.php:649 includes/class-gzseo-table-generator.php:749 includes/class-gzseo-table-generator.php:787 includes/class-gzseo-video-update.php:651 includes/class-gzseo-video-update.php:1485
+msgid "انتهای محتوا"
+msgstr "End of content"
+
+#: includes/class-gzseo-content-update.php:167 includes/class-gzseo-content-update.php:447 includes/class-gzseo-content-update.php:767
+msgid "بعد از دومین پاراگراف"
+msgstr "After second paragraph"
+
+#: includes/class-gzseo-content-update.php:168
+msgid "موقعیت دلخواه (با شورت‌کد)"
+msgstr "Custom Position (with shortcode)"
+
+#: includes/class-gzseo-content-update.php:174 includes/class-gzseo-content-update.php:773
+msgid "ذخیره محتوا"
+msgstr "Save Content"
+
+#: includes/class-gzseo-content-update.php:183 includes/class-gzseo-content-update.php:782
+msgid "محتواهای ذخیره شده"
+msgstr "Saved Content"
+
+#: includes/class-gzseo-content-update.php:189 includes/class-gzseo-content-update.php:788
+msgid "هنوز محتوایی ذخیره نشده است."
+msgstr "No content has been saved yet."
+
+#: includes/class-gzseo-content-update.php:206 includes/class-gzseo-content-update.php:229 includes/class-gzseo-content-update.php:805 includes/class-gzseo-content-update.php:822 includes/class-gzseo-video-update.php:755 includes/class-gzseo-video-update.php:998 includes/class-gzseo-video-update.php:1589
+msgid "فعال"
+msgstr "Active"
+
+#: includes/class-gzseo-content-update.php:280 includes/class-gzseo-content-update.php:898
+msgid "لطفا ابتدا به حساب هوش مصنوعی خود متصل شوید"
+msgstr "Please connect to your AI account first"
+
+#: includes/class-gzseo-content-update.php:304 includes/class-gzseo-content-update.php:922
+msgid "خطا در ارتباط با سرور: "
+msgstr "Server connection error: "
+
+#: includes/class-gzseo-content-update.php:379 includes/class-gzseo-content-update.php:994
+msgid "خطا در ذخیره محتوا"
+msgstr "Error saving content"
+
+#: includes/class-gzseo-content-update.php:383 includes/class-gzseo-content-update.php:998
+msgid "محتوا با موفقیت ذخیره شد"
+msgstr "Content saved successfully"
+
+#: includes/class-gzseo-content-update.php:448
+msgid "موقعیت دلخواه"
+msgstr "Custom Position"
+
+#: includes/class-gzseo-content-update.php:542 includes/class-gzseo-content-update.php:574
+msgid "محتوایی یافت نشد"
+msgstr "No content found"
+
+#: includes/class-gzseo-content-update.php:556
+msgid "محتوا با موفقیت حذف شد"
+msgstr "Content deleted successfully"
+
+#: includes/class-gzseo-content-update.php:598
+msgid "محتوا با موفقیت به‌روزرسانی شد"
+msgstr "Content updated successfully"
+
+#: includes/class-gzseo-content-update.php:890 includes/class-gzseo-title-description-generator.php:711
+msgid "دسته‌بندی یافت نشد"
+msgstr "Category not found"
+
+#: includes/class-gzseo-featured-image-ai.php:55
+msgid "در حال تولید تصویر..."
+msgstr "Generating image..."
+
+#: includes/class-gzseo-featured-image-ai.php:56
+msgid "خطا در تولید تصویر"
+msgstr "Error generating image"
+
+#: includes/class-gzseo-featured-image-ai.php:57
+msgid "آیا از انتخاب این تصویر به عنوان تصویر شاخص اطمینان دارید؟"
+msgstr "Are you sure you want to select this image as the featured image?"
+
+#: includes/class-gzseo-featured-image-ai.php:58
+msgid "آیا از بازگرداندن تصویر قبلی اطمینان دارید؟"
+msgstr "Are you sure you want to restore the previous image?"
+
+#: includes/class-gzseo-featured-image-ai.php:59
+msgid "تصویر با موفقیت تنظیم شد"
+msgstr "Image set successfully"
+
+#: includes/class-gzseo-featured-image-ai.php:125
+msgid "ابعاد انتخابی معتبر نیست"
+msgstr "Selected dimensions are invalid"
+
+#: includes/class-gzseo-featured-image-ai.php:183
+msgid "تصویر با موفقیت تولید شد"
+msgstr "Image generated successfully"
+
+#: includes/class-gzseo-featured-image-ai.php:271
+msgid "تصویر شاخص با موفقیت تنظیم شد"
+msgstr "Featured image set successfully"
+
+#: includes/class-gzseo-featured-image-ai.php:297
+msgid "تصویر قبلی بازگردانی شد"
+msgstr "Previous image restored"
+
+#: includes/class-gzseo-featured-image-ai.php:302
+msgid "تصویر قبلی یافت نشد"
+msgstr "Previous image not found"
+
+#: includes/class-gzseo-featured-image-ai.php:318
+msgid "برای استفاده از تولید تصویر با هوش مصنوعی، ابتدا باید وارد حساب کاربری خود شوید."
+msgstr "To use AI image generation, you must first log in to your account."
+
+#: includes/class-gzseo-featured-image-ai.php:328
+msgid "ابعاد تصویر:"
+msgstr "Image Dimensions:"
+
+#: includes/class-gzseo-featured-image-ai.php:330 includes/class-gzseo-featured-image-settings.php:64
+msgid "انتخاب ابعاد..."
+msgstr "Select dimensions..."
+
+#: includes/class-gzseo-featured-image-ai.php:331
+msgid "1024x1024 (مربع)"
+msgstr "1024x1024 (Square)"
+
+#: includes/class-gzseo-featured-image-ai.php:332 includes/class-gzseo-featured-image-settings.php:19
+msgid "1152x896 (افقی)"
+msgstr "1152x896 (Horizontal)"
+
+#: includes/class-gzseo-featured-image-ai.php:333 includes/class-gzseo-featured-image-settings.php:20
+msgid "896x1152 (عمودی)"
+msgstr "896x1152 (Vertical)"
+
+#: includes/class-gzseo-featured-image-ai.php:334 includes/class-gzseo-featured-image-settings.php:21
+msgid "1216x832 (افقی عریض)"
+msgstr "1216x832 (Wide Horizontal)"
+
+#: includes/class-gzseo-featured-image-ai.php:335 includes/class-gzseo-featured-image-settings.php:22
+msgid "1344x768 (افقی فول)"
+msgstr "1344x768 (Full Horizontal)"
+
+#: includes/class-gzseo-featured-image-ai.php:336 includes/class-gzseo-featured-image-settings.php:23
+msgid "768x1344 (عمودی فول)"
+msgstr "768x1344 (Full Vertical)"
+
+#: includes/class-gzseo-featured-image-ai.php:337 includes/class-gzseo-featured-image-settings.php:24
+msgid "1536x640 (افقی بنر)"
+msgstr "1536x640 (Banner Horizontal)"
+
+#: includes/class-gzseo-featured-image-ai.php:338 includes/class-gzseo-featured-image-settings.php:25
+msgid "640x1536 (عمودی بنر)"
+msgstr "640x1536 (Banner Vertical)"
+
+#: includes/class-gzseo-featured-image-ai.php:344
+#, php-format
+msgid "تصویر بر اساس عنوان پست \"<strong>%s</strong>\" تولید خواهد شد."
+msgstr "The image will be generated based on the post title \"<strong>%s</strong>\"."
+
+#: includes/class-gzseo-featured-image-ai.php:349
+msgid "تولید تصویر"
+msgstr "Generate Image"
+
+#: includes/class-gzseo-featured-image-ai.php:354
+msgid "بازگردانی تصویر قبلی"
+msgstr "Restore Previous Image"
+
+#: includes/class-gzseo-featured-image-ai.php:360
+msgid "پیش‌نمایش تصویر تولید شده:"
+msgstr "Preview of Generated Image:"
+
+#: includes/class-gzseo-featured-image-ai.php:362 includes/class-gzseo-video-update.php:766 includes/class-gzseo-video-update.php:1600
+msgid "پیش‌نمایش"
+msgstr "Preview"
+
+#: includes/class-gzseo-featured-image-ai.php:366
+msgid "تنظیم به عنوان تصویر شاخص"
+msgstr "Set as Featured Image"
+
+#: includes/class-gzseo-featured-image-ai.php:453
+msgid "وضعیت تولید"
+msgstr "Generation Status"
+
+#: includes/class-gzseo-featured-image-ai.php:468
+msgid "نوع تولید"
+msgstr "Generation Type"
+
+#: includes/class-gzseo-featured-image-settings.php:18
+msgid "1024×1024 (مربع)"
+msgstr "1024×1024 (Square)"
+
+#: includes/class-gzseo-featured-image-settings.php:57
+msgid "تنظیمات تصویر شاخص"
+msgstr "Featured Image Settings"
+
+#: includes/class-gzseo-featured-image-settings.php:61
+msgid "ابعاد پیش‌فرض"
+msgstr "Default Dimensions"
+
+#: includes/class-gzseo-featured-image-settings.php:62
+msgid "مشخص کنید ابعاد تصویر به صورت پیش‌فرض چه مقداری باشد."
+msgstr "Specify the default dimensions for the image."
+
+#: includes/class-gzseo-featured-image-settings.php:74
+msgid "عرض:"
+msgstr "Width:"
+
+#: includes/class-gzseo-featured-image-settings.php:74 includes/class-gzseo-featured-image-settings.php:75
+msgid "پیکسل"
+msgstr "pixels"
+
+#: includes/class-gzseo-featured-image-settings.php:75
+msgid "ارتفاع:"
+msgstr "Height:"
+
+#: includes/class-gzseo-featured-image-settings.php:82
+msgid "پیش‌نمایش ابعاد"
+msgstr "Dimensions Preview"
+
+#: includes/class-gzseo-featured-image-settings.php:218
+msgid "لطفا یک ابعاد معتبر انتخاب کنید"
+msgstr "Please select valid dimensions"
+
+#: includes/class-gzseo-person-schema.php:87
+msgid "یک اسکیمای Person قبلاً ذخیره شده است"
+msgstr "A Person schema has already been saved"
+
+#: includes/class-gzseo-person-schema.php:93
+msgid "نام و نام خانوادگی الزامی است"
+msgstr "First and last name are required"
+
+#: includes/class-gzseo-person-schema.php:125
+msgid "اسکیمای Person با موفقیت ذخیره شد"
+msgstr "Person schema saved successfully"
+
+#: includes/class-gzseo-person-schema.php:125
+msgid "اسکیمای Person با موفقیت بروزرسانی شد"
+msgstr "Person schema updated successfully"
+
+#: includes/class-gzseo-person-schema.php:131
+msgid "خطا در ذخیره اطلاعات در دیتابیس"
+msgstr "Error saving information to database"
+
+#: includes/class-gzseo-person-schema.php:155
+msgid "اسکیمای Person با موفقیت حذف شد"
+msgstr "Person schema deleted successfully"
+
+#: includes/class-gzseo-person-schema.php:157
+msgid "خطا در حذف اسکیما"
+msgstr "Error deleting schema"
+
+#: includes/class-gzseo-search-console.php:108
+msgid "لطفا آدرس سایت را وارد کنید"
+msgstr "Please enter the site URL"
+
+#: includes/class-gzseo-search-console.php:141
+msgid "در حال انتقال به صفحه احراز هویت گوگل..."
+msgstr "Redirecting to Google authentication page..."
+
+#: includes/class-gzseo-search-console.php:160
+#, php-format
+msgid "Missing required field: %s"
+msgstr "Missing required field: %s"
+
+#: includes/class-gzseo-search-console.php:220
+msgid "Token imported successfully"
+msgstr "Token imported successfully"
+
+#: includes/class-gzseo-search-console.php:258
+msgid "اتصال با موفقیت قطع شد"
+msgstr "Disconnected successfully"
+
+#: includes/class-gzseo-search-console.php:296
+msgid "تنظیمات ذخیره شد"
+msgstr "Settings saved"
+
+#: includes/class-gzseo-search-keywords.php:51
+msgid "GZSEO Search Keywords Request Data:"
+msgstr "GZSEO Search Keywords Request Data:"
+
+#: includes/class-gzseo-search-keywords.php:64
+msgid "GZSEO API Error:"
+msgstr "GZSEO API Error:"
+
+#: includes/class-gzseo-search-keywords.php:72
+msgid "GZSEO API Response Status:"
+msgstr "GZSEO API Response Status:"
+
+#: includes/class-gzseo-search-keywords.php:73
+msgid "GZSEO API Response Body:"
+msgstr "GZSEO API Response Body:"
+
+#: includes/class-gzseo-search-keywords.php:76
+msgid "GZSEO API Error Status:"
+msgstr "GZSEO API Error Status:"
+
+#: includes/class-gzseo-search-keywords.php:83
+msgid "GZSEO JSON Error:"
+msgstr "GZSEO JSON Error:"
+
+#: includes/class-gzseo-table-generator.php:133
+msgid "محتوا نمی‌تواند خالی باشد"
+msgstr "Content cannot be empty"
+
+#: includes/class-gzseo-table-generator.php:157
+#, php-format
+msgid "خطا در اتصال به سرور: %s"
+msgstr "Error connecting to server: %s"
+
+#: includes/class-gzseo-table-generator.php:191
+msgid "جدول با موفقیت تولید شد"
+msgstr "Table generated successfully"
+
+#: includes/class-gzseo-table-generator.php:328
+msgid "جدول با موفقیت ذخیره شد"
+msgstr "Table saved successfully"
+
+#: includes/class-gzseo-table-generator.php:374
+msgid "جدول یافت نشد"
+msgstr "Table not found"
+
+#: includes/class-gzseo-table-generator.php:381
+msgid "جدول با موفقیت بروزرسانی شد"
+msgstr "Table updated successfully"
+
+#: includes/class-gzseo-table-generator.php:417
+msgid "جدول با موفقیت حذف شد"
+msgstr "Table deleted successfully"
+
+#: includes/class-gzseo-table-generator.php:434
+msgid "شناسه نامعتبر است"
+msgstr "Invalid ID"
+
+#: includes/class-gzseo-table-generator.php:562 includes/class-gzseo-table-generator.php:699
+msgid "برای استفاده از تولید جدول با هوش مصنوعی، ابتدا باید وارد حساب کاربری خود شوید."
+msgstr "To use AI table generation, you must first log in to your account."
+
+#: includes/class-gzseo-table-generator.php:584 includes/class-gzseo-table-generator.php:722
+msgid "جدول - "
+msgstr "Table - "
+
+#: includes/class-gzseo-table-generator.php:599 includes/class-gzseo-table-generator.php:639 includes/class-gzseo-table-generator.php:737 includes/class-gzseo-table-generator.php:777
+msgid "افزودن سطر"
+msgstr "Add Row"
+
+#: includes/class-gzseo-table-generator.php:600 includes/class-gzseo-table-generator.php:640 includes/class-gzseo-table-generator.php:738 includes/class-gzseo-table-generator.php:778
+msgid "افزودن ستون"
+msgstr "Add Column"
+
+#: includes/class-gzseo-table-generator.php:618 includes/class-gzseo-table-generator.php:756
+msgid "ذخیره تغییرات"
+msgstr "Save Changes"
+
+#: includes/class-gzseo-table-generator.php:630 includes/class-gzseo-table-generator.php:768
+msgid "افزودن جدول جدید"
+msgstr "Add New Table"
+
+#: includes/class-gzseo-table-generator.php:636 includes/class-gzseo-table-generator.php:774
+msgid "پیش‌نمایش جدول جدید:"
+msgstr "New Table Preview:"
+
+#: includes/class-gzseo-table-generator.php:657 includes/class-gzseo-table-generator.php:795
+msgid "ذخیره جدول"
+msgstr "Save Table"
+
+#: includes/class-gzseo-table-styles.php:259
+msgid "GZSEO: Table styles not found in head, adding in footer"
+msgstr "GZSEO: Table styles not found in head, adding in footer"
+
+#: includes/class-gzseo-title-description-generator.php:70 includes/class-gzseo-title-description-generator.php:409 includes/class-gzseo-title-description-generator.php:684
+msgid "در حال تولید عنوان و توضیحات..."
+msgstr "Generating title and description..."
+
+#: includes/class-gzseo-title-description-generator.php:71
+msgid "عنوان و توضیحات با موفقیت تولید شد"
+msgstr "Title and description generated successfully"
+
+#: includes/class-gzseo-title-description-generator.php:72 includes/class-gzseo-title-description-generator.php:501 includes/class-gzseo-title-description-generator.php:762
+msgid "خطا در تولید عنوان و توضیحات"
+msgstr "Error generating title and description"
+
+#: includes/class-gzseo-title-description-generator.php:74
+msgid "با موفقیت ذخیره شد"
+msgstr "Saved successfully"
+
+#: includes/class-gzseo-title-description-generator.php:75
+msgid "آیا از ذخیره این عنوان و توضیحات اطمینان دارید؟"
+msgstr "Are you sure you want to save this title and description?"
+
+#: includes/class-gzseo-title-description-generator.php:76
+msgid "لطفا یک عنوان و توضیحات را انتخاب کنید"
+msgstr "Please select a title and description"
+
+#: includes/class-gzseo-title-description-generator.php:338 includes/class-gzseo-title-description-generator.php:638
+msgid "برای استفاده از این قابلیت، ابتدا باید وارد حساب کاربری خود شوید."
+msgstr "To use this feature, you must first log in to your account."
+
+#: includes/class-gzseo-title-description-generator.php:348
+msgid "افونه‌های SEO فعال: "
+msgstr "Active SEO Plugins: "
+
+#: includes/class-gzseo-title-description-generator.php:370
+msgid "عنوان و توضیحات فعلی:"
+msgstr "Current Title and Description:"
+
+#: includes/class-gzseo-title-description-generator.php:372 includes/class-gzseo-title-description-generator.php:648
+msgid "عنوان:"
+msgstr "Title:"
+
+#: includes/class-gzseo-title-description-generator.php:376
+msgid "توضیحات متا:"
+msgstr "Meta Description:"
+
+#: includes/class-gzseo-title-description-generator.php:378
+msgid "توضیحات متا تعریف نشده"
+msgstr "Meta description not defined"
+
+#: includes/class-gzseo-title-description-generator.php:386 includes/class-gzseo-title-description-generator.php:664
+msgid "تولید عنوان و توضیحات جدید"
+msgstr "Generate New Title and Description"
+
+#: includes/class-gzseo-title-description-generator.php:395 includes/class-gzseo-title-description-generator.php:670
+msgid "عناوین و توضیحات تولید شده:"
+msgstr "Generated Titles and Descriptions:"
+
+#: includes/class-gzseo-title-description-generator.php:401 includes/class-gzseo-title-description-generator.php:676
+msgid "ذخیره عنوان و توضیحات انتخابی"
+msgstr "Save Selected Title and Description"
+
+#: includes/class-gzseo-title-description-generator.php:429
+msgid "شناسه پست معتبر نیست"
+msgstr "Invalid post ID"
+
+#: includes/class-gzseo-title-description-generator.php:445 includes/class-gzseo-title-description-generator.php:719
+msgid "اطلاعات ورود به هوش مصنوعی یافت نشد"
+msgstr "AI login information not found"
+
+#: includes/class-gzseo-title-description-generator.php:486 includes/class-gzseo-title-description-generator.php:749
+#, php-format
+msgid "خطا در ارتباط با سرور: %s"
+msgstr "Server connection error: %s"
+
+#: includes/class-gzseo-title-description-generator.php:508 includes/class-gzseo-title-description-generator.php:768
+msgid "فرمت پاسخ نامعتبر است"
+msgstr "Invalid response format"
+
+#: includes/class-gzseo-title-description-generator.php:516 includes/class-gzseo-title-description-generator.php:775
+msgid "عنوان یا توضیحات خالی است"
+msgstr "Title or description is empty"
+
+#: includes/class-gzseo-title-description-generator.php:550 includes/class-gzseo-title-description-generator.php:808
+msgid "داده‌های ورودی نامعتبر"
+msgstr "Invalid input data"
+
+#: includes/class-gzseo-title-description-generator.php:556
+msgid "شما دسترسی ویرایش این پست را ندارید"
+msgstr "You do not have permission to edit this post"
+
+#: includes/class-gzseo-title-description-generator.php:567
+msgid "خطا در بروزرسانی عنوان"
+msgstr "Error updating title"
+
+#: includes/class-gzseo-title-description-generator.php:603 includes/class-gzseo-title-description-generator.php:850
+msgid "عنوان و توضیحات با موفقیت ذخیره شد"
+msgstr "Title and description saved successfully"
+
+#: includes/class-gzseo-title-description-generator.php:605
+msgid "در"
+msgstr "In"
+
+#: includes/class-gzseo-title-description-generator.php:632
+msgid "دسته‌بندی"
+msgstr "Category"
+
+#: includes/class-gzseo-title-description-generator.php:646
+#, php-format
+msgid "عنوان و توضیحات فعلی %s:"
+msgstr "Current %s title and description:"
+
+#: includes/class-gzseo-title-description-generator.php:652
+msgid "توضیحات:"
+msgstr "Description:"
+
+#: includes/class-gzseo-title-description-generator.php:654
+msgid "توضیحات تعریف نشده"
+msgstr "Description not defined"
+
+#: includes/class-gzseo-title-description-generator.php:705
+msgid "شناسه دسته‌بندی معتبر نیست"
+msgstr "Invalid category ID"
+
+#: includes/class-gzseo-title-description-generator.php:814
+msgid "شما دسترسی ویرایش این دسته‌بندی را ندارید"
+msgstr "You do not have permission to edit this category"
+
+#: includes/class-gzseo-title-description-generator.php:824
+#, php-format
+msgid "خطا در بروزرسانی دسته‌بندی: %s"
+msgstr "Error updating category: %s"
+
+#: includes/class-gzseo-video-update.php:115
+msgid "در حال جستجو..."
+msgstr "Searching..."
+
+#: includes/class-gzseo-video-update.php:116
+msgid "نتیجه‌ای یافت نشد"
+msgstr "No results found"
+
+#: includes/class-gzseo-video-update.php:117
+msgid "خطا در دریافت ویدیوها"
+msgstr "Error receiving videos"
+
+#: includes/class-gzseo-video-update.php:118
+msgid "لطفا حداقل یک ویدیو انتخاب کنید"
+msgstr "Please select at least one video"
+
+#: includes/class-gzseo-video-update.php:119
+msgid "ویدیوها با موفقیت ذخیره شدند"
+msgstr "Videos saved successfully"
+
+#: includes/class-gzseo-video-update.php:120
+msgid "خطا در ذخیره ویدیوها"
+msgstr "Error saving videos"
+
+#: includes/class-gzseo-video-update.php:137
+msgid "لطفا کلمه کلیدی را وارد کنید"
+msgstr "Please enter a keyword"
+
+#: includes/class-gzseo-video-update.php:145
+msgid "ابتدا به حساب هوش مصنوعی وارد شوید"
+msgstr "Please log in to your AI account first"
+
+#: includes/class-gzseo-video-update.php:421 includes/class-gzseo-video-update.php:1724
+#, php-format
+msgid "%d ویدیو bulk جدید اضافه شد"
+msgid_plural "%d ویدیو bulk جدید اضافه شد"
+msgstr[0] "%d new bulk video was added"
+msgstr[1] "%d new bulk videos were added"
+
+#: includes/class-gzseo-video-update.php:518
+msgid "همه ویدیوها حذف شدند"
+msgstr "All videos were deleted"
+
+#: includes/class-gzseo-video-update.php:520
+msgid "ویدیو حذف شد"
+msgstr "Video deleted"
+
+#: includes/class-gzseo-video-update.php:522
+#, php-format
+msgid "تعداد %d ویدیو ذخیره شد"
+msgstr "%d videos were saved"
+
+#: includes/class-gzseo-video-update.php:557
+msgid "ویدیوهای مرتبط"
+msgstr "Related Videos"
+
+#: includes/class-gzseo-video-update.php:623 includes/class-gzseo-video-update.php:1454
+msgid "برای استفاده از قابلیت آپدیت ویدیویی با هوش مصنوعی، ابتدا باید وارد حساب کاربری خود شوید."
+msgstr "To use the AI video update feature, you must first log in to your account."
+
+#: includes/class-gzseo-video-update.php:634 includes/class-gzseo-video-update.php:1468
+msgid "کلمه کلیدی مورد نظر"
+msgstr "Desired Keyword"
+
+#: includes/class-gzseo-video-update.php:635 includes/class-gzseo-video-update.php:1469
+msgid "مثال: آموزش سئو"
+msgstr "Example: SEO Tutorial"
+
+#: includes/class-gzseo-video-update.php:638 includes/class-gzseo-video-update.php:1472
+msgid "جستجوی ویدیو"
+msgstr "Search for Videos"
+
+#: includes/class-gzseo-video-update.php:644 includes/class-gzseo-video-update.php:1478
+msgid "نتایج جستجو"
+msgstr "Search Results"
+
+#: includes/class-gzseo-video-update.php:648 includes/class-gzseo-video-update.php:1482
+msgid "محل نمایش ویدیوها:"
+msgstr "Video Display Location:"
+
+#: includes/class-gzseo-video-update.php:659 includes/class-gzseo-video-update.php:1493
+msgid "ذخیره ویدیوهای انتخاب شده"
+msgstr "Save Selected Videos"
+
+#: includes/class-gzseo-video-update.php:661 includes/class-gzseo-video-update.php:1495
+msgid "ویدیو انتخاب شده"
+msgstr "Selected Video"
+
+#: includes/class-gzseo-video-update.php:666 includes/class-gzseo-video-update.php:1500
+msgid "ویدیوهای ذخیره شده"
+msgstr "Saved Videos"
+
+#: includes/class-gzseo-video-update.php:687 includes/class-gzseo-video-update.php:1521
+msgid "راهنمای نمادها:"
+msgstr "Icon Guide:"
+
+#: includes/class-gzseo-video-update.php:694 includes/class-gzseo-video-update.php:1528
+msgid "ویدیوهای اضافه شده دستی"
+msgstr "Manually Added Videos"
+
+#: includes/class-gzseo-video-update.php:703 includes/class-gzseo-video-update.php:735 includes/class-gzseo-video-update.php:1537 includes/class-gzseo-video-update.php:1569
+msgid "ویدیوهای تولید شده با آپدیت دسته جمعی"
+msgstr "Videos generated via bulk update"
+
+#: includes/class-gzseo-video-update.php:737 includes/class-gzseo-video-update.php:1571
+msgid "این ویدیوها به صورت خودکار با آپدیت دسته جمعی تولید شده‌اند و به صورت پیش‌فرض غیرفعال هستند."
+msgstr "These videos were automatically generated via bulk update and are inactive by default."
+
+#: includes/class-gzseo-video-update.php:738 includes/class-gzseo-video-update.php:1572
+msgid "برای نمایش هر ویدیو در محتوا، آن را فعال کنید:"
+msgstr "To display each video in the content, activate it:"
+
+#: includes/class-gzseo-video-update.php:778 includes/class-gzseo-video-update.php:1612
+msgid "تعداد ویدیوهای bulk:"
+msgstr "Number of bulk videos:"
+
+#: includes/class-gzseo-video-update.php:779 includes/class-gzseo-video-update.php:1613
+msgid "فعال:"
+msgstr "Active:"
+
+#: includes/class-gzseo-video-update.php:1013 includes/class-gzseo-video-update.php:1230 includes/class-gzseo-video-update.php:1849
+msgid "خطا در تغییر وضعیت ویدیو"
+msgstr "Error changing video status"
+
+#: includes/class-gzseo-video-update.php:1040
+msgid "امنیت تأیید نشد"
+msgstr "Security not verified"
+
+#: includes/class-gzseo-video-update.php:1049
+msgid "شما اجازه ویرایش این پست را ندارید"
+msgstr "You do not have permission to edit this post"
+
+#: includes/class-gzseo-video-update.php:1057 includes/class-gzseo-video-update.php:1826
+msgid "ویدیو یافت نشد"
+msgstr "Video not found"
+
+#: includes/class-gzseo-video-update.php:1077
+msgid "وضعیت ویدیو با موفقیت تغییر یافت"
+msgstr "Video status changed successfully"
+
+#: includes/class-gzseo-video-update.php:1081
+msgid "خطا در ذخیره تغییرات"
+msgstr "Error saving changes"
+
+#: includes/class-gzseo-video-update.php:1226 includes/class-gzseo-video-update.php:1845
+msgid "ویدیو فعال شد"
+msgstr "Video activated"
+
+#: includes/class-gzseo-video-update.php:1226 includes/class-gzseo-video-update.php:1845
+msgid "ویدیو غیرفعال شد"
+msgstr "Video deactivated"
+
+#: includes/class-gzseo-video-update.php:1246
+msgid "ویدیوهای bulk با موفقیت حذف شدند"
+msgstr "Bulk videos were successfully deleted"
+
+#: includes/class-gzseo-video-update.php:1248
+msgid "خطا در حذف ویدیوها"
+msgstr "Error deleting videos"
+
+#: includes/class-gzseo-video-update.php:1678
+msgid "هیچ ویدیویی دریافت نشد"
+msgstr "No videos were received"
+
+#: includes/class-gzseo-video-update.php:1757
+msgid "هیچ ویدیوی معتبری برای ذخیره وجود ندارد"
+msgstr "There are no valid videos to save"
+
+#: includes/class-gzseo-video-update.php:1789
+#, php-format
+msgid "%d ویدیو جدید اضافه شد (مجموع: %d)"
+msgstr "%d new video added (total: %d)"
+
+#: includes/class-gzseo-video-update.php:1961
+msgid "ویدیویی یافت نشد"
+msgstr "No video found"
+
+#: includes/class-gzseo-video-update.php:1966
+msgid "ایندکس ویدیو نامعتبر است"
+msgstr "Invalid video index"
+
+#: includes/class-gzseo-video-update.php:2000
+msgid "ویدیو با موفقیت حذف شد"
+msgstr "Video deleted successfully"
+
+#: includes/migrations/class-gzseo-migration-manager.php:133 includes/migrations/class-gzseo-migration-manager.php:134
+msgid "انتقال داده‌ها"
+msgstr "Data Migration"
+
+#: includes/migrations/class-gzseo-migration-manager.php:147
+msgid "انتقال داده‌ها از نسخه قبلی"
+msgstr "Migrating data from previous version"
+
+#: includes/migrations/class-gzseo-migration-manager.php:150
+msgid "وضعیت انتقال"
+msgstr "Migration Status"
+
+#: includes/migrations/class-gzseo-migration-manager.php:154
+msgid "نوع داده"
+msgstr "Data Type"
+
+#: includes/migrations/class-gzseo-migration-manager.php:156
+msgid "تعداد کل"
+msgstr "Total Count"
+
+#: includes/migrations/class-gzseo-migration-manager.php:157
+msgid "تعداد منتقل شده"
+msgstr "Migrated Count"
+
+#: includes/migrations/class-gzseo-migration-manager.php:169
+msgid "✓ تکمیل شده"
+msgstr "✓ Completed"
+
+#: includes/migrations/class-gzseo-migration-manager.php:171
+msgid "در حال انجام"
+msgstr "In Progress"
+
+#: includes/migrations/class-gzseo-migration-manager.php:173
+msgid "آماده انتقال"
+msgstr "Ready to Migrate"
+
+#: includes/migrations/class-gzseo-migration-manager.php:182 includes/migrations/class-gzseo-migration-manager.php:308
+msgid "انتقال"
+msgstr "Migrate"
+
+#: includes/migrations/class-gzseo-migration-manager.php:187
+msgid "حذف داده‌های منتقل شده"
+msgstr "Delete Migrated Data"
+
+#: includes/migrations/class-gzseo-migration-manager.php:188 includes/migrations/class-gzseo-migration-manager.php:364
+msgid "حذف داده‌های جدید"
+msgstr "Delete New Data"
+
+#: includes/migrations/class-gzseo-migration-manager.php:199 includes/migrations/class-gzseo-migration-manager.php:334
+msgid "انتقال همه داده‌ها"
+msgstr "Migrate All Data"
+
+#: includes/migrations/class-gzseo-migration-manager.php:205
+msgid "تنظیمات Migration"
+msgstr "Migration Settings"
+
+#: includes/migrations/class-gzseo-migration-manager.php:212
+msgid "Migration اتوماتیک"
+msgstr "Automatic Migration"
+
+#: includes/migrations/class-gzseo-migration-manager.php:217
+msgid "فعال کردن انتقال اتوماتیک داده‌ها در زمان بارگذاری افزونه"
+msgstr "Enable automatic data migration on plugin load"
+
+#: includes/migrations/class-gzseo-migration-manager.php:220
+msgid "با فعال بودن این گزینه، داده‌های نسخه قدیم به صورت خودکار به نسخه جدید منتقل می‌شوند."
+msgstr "With this option enabled, old version data will be automatically migrated to the new version."
+
+#: includes/migrations/class-gzseo-migration-manager.php:226
+msgid "حالت Migration"
+msgstr "Migration Mode"
+
+#: includes/migrations/class-gzseo-migration-manager.php:230
+msgid "ایمن (بدون حذف داده‌های قدیمی)"
+msgstr "Safe (without deleting old data)"
+
+#: includes/migrations/class-gzseo-migration-manager.php:233
+msgid "پاکسازی (حذف داده‌های قدیمی پس از انتقال موفق)"
+msgstr "Cleanup (delete old data after successful migration)"
+
+#: includes/migrations/class-gzseo-migration-manager.php:237
+msgid "در حالت ایمن، داده‌های قدیمی حفظ می‌شوند. در حالت پاکسازی، پس از انتقال موفق حذف می‌شوند."
+msgstr "In safe mode, old data is preserved. In cleanup mode, it is deleted after a successful migration."
+
+#: includes/migrations/class-gzseo-migration-manager.php:251
+msgid "تاریخچه Migration های اتوماتیک"
+msgstr "History of Automatic Migrations"
+
+#: includes/migrations/class-gzseo-migration-manager.php:255
+msgid "نوع"
+msgstr "Type"
+
+#: includes/migrations/class-gzseo-migration-manager.php:257
+msgid "حالت"
+msgstr "Mode"
+
+#: includes/migrations/class-gzseo-migration-manager.php:265
+msgid "✓ اتوماتیک"
+msgstr "✓ Automatic"
+
+#: includes/migrations/class-gzseo-migration-manager.php:284 includes/migrations/class-gzseo-migration-manager.php:292
+msgid "در حال انتقال..."
+msgstr "Migrating..."
+
+#: includes/migrations/class-gzseo-migration-manager.php:304
+msgid "انتقال با موفقیت انجام شد"
+msgstr "Migration completed successfully"
+
+#: includes/migrations/class-gzseo-migration-manager.php:307 includes/migrations/class-gzseo-migration-manager.php:363
+msgid "خطا: "
+msgstr "Error: "
+
+#: includes/migrations/class-gzseo-migration-manager.php:316
+msgid "همه انتقال‌ها با موفقیت انجام شد"
+msgstr "All migrations completed successfully"
+
+#: includes/migrations/class-gzseo-migration-manager.php:333
+msgid "خطا در انتقال "
+msgstr "Error in migration "
+
+#: includes/migrations/class-gzseo-migration-manager.php:344
+msgid "آیا از حذف داده‌های منتقل شده مطمئن هستید؟ این عمل قابل بازگشت نیست."
+msgstr "Are you sure you want to delete the migrated data? This action cannot be undone."
+
+#: includes/migrations/class-gzseo-migration-manager.php:379
+msgid "ویدیوها"
+msgstr "Videos"
+
+#: includes/migrations/class-gzseo-migration-manager.php:380
+msgid "محتواهای متنی"
+msgstr "Text Contents"
+
+#: includes/migrations/class-gzseo-migration-manager.php:381
+msgid "جداول"
+msgstr "Tables"
+
+#: includes/migrations/class-gzseo-migration-manager.php:383
+msgid "تصاویر شاخص"
+msgstr "Featured Images"
+
+#: includes/migrations/class-gzseo-migration-manager.php:384
+msgid "اسکیمای Person"
+msgstr "Person Schema"
+
+#: includes/migrations/class-gzseo-migration-manager.php:401 includes/migrations/class-gzseo-migration-manager.php:424
+msgid "Migration نامعتبر"
+msgstr "Invalid Migration"
+
+#: includes/migrations/class-gzseo-migration-manager.php:406
+msgid "انتقال انجام شد"
+msgstr "Migration completed"
+
+#: includes/migrations/class-gzseo-migration-manager.php:435
+msgid "متد rollback یافت نشد"
+msgstr "Rollback method not found"
+
+#: includes/migrations/class-gzseo-migration-manager.php:438
+msgid "داده‌های منتقل شده با موفقیت حذف شدند"
+msgstr "Migrated data was successfully deleted"
+
+#. Plugin Name of the plugin/theme
+msgid "GZSEO"
+msgstr "GZSEO"
+
+#. Description of the plugin/theme
+msgid "Generation Z SEO Plugin | Website SEO Powered by Artificial Intelligence"
+msgstr "Generation Z SEO Plugin | Website SEO Powered by Artificial Intelligence"
+
+#. Author of the plugin/theme
+msgid "Amin Hashemi"
+msgstr "Amin Hashemi"
+
+#. Author URI of the plugin/theme
+msgid "https://aminhashemy.org/"
+msgstr "https://aminhashemy.org/"

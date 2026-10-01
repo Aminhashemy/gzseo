@@ -1,0 +1,851 @@
+/**
+ * GZ SEO Comment Generator Styles
+ */
+
+/* Wrapper */
+.gzseo-comment-generator-wrapper {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Form Layout */
+.gzseo-cg-form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Row and Columns */
+.gzseo-cg-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gzseo-cg-col-4 {
+    flex: 1;
+}
+
+.gzseo-cg-col-6 {
+    flex: 1;
+}
+
+/* Info Box */
+.gzseo-cg-info-box {
+    background: #f0f8ff;
+    border: 1px solid #d1e7fd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.gzseo-cg-info-box i {
+    color: #0073aa;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.gzseo-cg-info-box p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.gzseo-cg-info-box strong {
+    color: #333;
+}
+
+/* Help Text */
+.gzseo-help-text {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Form Groups */
+.gzseo-form-group {
+    margin-bottom: 20px;
+}
+
+.gzseo-form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.gzseo-form-group input[type="text"],
+.gzseo-form-group input[type="number"],
+.gzseo-form-group select,
+.gzseo-form-group textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.gzseo-form-group textarea {
+    resize: vertical;
+}
+
+/* Keywords Tags */
+.gzseo-cg-keywords-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.gzseo-keyword-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    background: #f0f8ff;
+    border: 1px solid #d1e7fd;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #0073aa;
+}
+
+.gzseo-keyword-tag i {
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 12px;
+}
+
+.gzseo-keyword-tag i:hover {
+    color: #a02622;
+}
+
+/* Checkbox Label */
+.gzseo-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.gzseo-checkbox-label input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Actions */
+.gzseo-cg-actions {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* Results Section */
+.gzseo-cg-results {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gzseo-cg-results h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Comment Item */
+.gzseo-cg-comment {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.gzseo-cg-comment:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Comment Header */
+.gzseo-cg-comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.gzseo-cg-author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gzseo-cg-author-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.gzseo-cg-change-author {
+    background: none;
+    border: none;
+    color: #0073aa;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background 0.2s;
+}
+
+.gzseo-cg-change-author:hover {
+    background: #f0f8ff;
+}
+
+/* Comment Meta */
+.gzseo-cg-comment-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.gzseo-cg-date {
+    color: #666;
+    font-size: 13px;
+}
+
+.gzseo-cg-status {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.gzseo-status-pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.gzseo-status-published {
+    background: #d4edda;
+    color: #155724;
+}
+
+.gzseo-status-scheduled {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.gzseo-status-draft {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+/* Comment Content */
+.gzseo-cg-comment-content {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.gzseo-cg-content-edit {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Comment Actions */
+.gzseo-cg-comment-actions,
+.gzseo-cg-comment-edit-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.gzseo-cg-comment-actions button,
+.gzseo-cg-comment-edit-actions button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Schedule Options */
+.gzseo-cg-schedule-options {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.gzseo-cg-schedule-fields {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.gzseo-cg-schedule-value {
+    width: 80px;
+}
+
+.gzseo-cg-schedule-type {
+    width: 120px;
+}
+
+/* Messages */
+.gzseo-cg-messages {
+    margin-top: 20px;
+}
+
+.gzseo-message {
+    padding: 12px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: slideInUp 0.3s ease;
+}
+
+.gzseo-message i {
+    font-size: 18px;
+}
+
+.gzseo-message-success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.gzseo-message-error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Login Notice */
+.gzseo-ai-login-notice {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.gzseo-ai-login-notice i {
+    font-size: 48px;
+    color: #f39c12;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.gzseo-ai-login-notice p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Animations */
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .gzseo-cg-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .gzseo-cg-info-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .gzseo-cg-info-box i {
+        margin: 0 auto 10px;
+    }
+    
+    .gzseo-cg-comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .gzseo-cg-comment-actions,
+    .gzseo-cg-comment-edit-actions {
+        flex-wrap: wrap;
+    }
+    
+    .gzseo-cg-comment-actions button,
+    .gzseo-cg-comment-edit-actions button {
+        flex: 1;
+        min-width: 100px;
+        justify-content: center;
+    }
+    
+    .gzseo-cg-schedule-fields {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .gzseo-cg-schedule-value,
+    .gzseo-cg-schedule-type {
+        width: 100%;
+    }
+}
+
+
+
+/**
+ * GZ SEO Comment Generator AI Styles
+ * 
+ * @package GZ_SEO
+ * @since 2.0.0
+ */
+
+/* Wrapper */
+.gzseo-comment-generator-wrapper {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Login Notice */
+.gzseo-ai-login-notice {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gzseo-ai-login-notice i {
+    color: #f39c12;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gzseo-ai-login-notice p {
+    margin: 10px 0;
+    color: #856404;
+}
+
+/* Info Box */
+
+/* Form Groups */
+.gzseo-form-group {
+    margin-bottom: 15px;
+}
+
+.gzseo-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.gzseo-help-text {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 12px;
+}
+
+/* Keywords */
+.gzseo-cg-keywords-tags {
+    margin-top: 10px;
+}
+
+/* Row & Columns */
+.gzseo-cg-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.gzseo-cg-col-4 {
+    flex: 1;
+}
+
+/* Checkbox */
+.gzseo-checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gzseo-checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Actions */
+.gzseo-cg-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Results Section */
+.gzseo-cg-results {
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+.gzseo-cg-results h4 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Final Actions */
+.gzseo-cg-final-actions {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.gzseo-cg-final-actions button {
+    margin: 0 5px;
+}
+
+/* Comments List */
+#gzseo-cg-comments-list {
+    margin-bottom: 20px;
+}
+
+/* Comment Item */
+.gzseo-cg-comment {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.gzseo-cg-comment:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Comment Header */
+.gzseo-cg-comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.gzseo-cg-author-info {
+    display: flex;
+    align-items: center;
+}
+
+.gzseo-cg-author-name {
+    margin-right: 5px;
+    color: #333;
+}
+
+.gzseo-cg-change-author {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.gzseo-cg-change-author:hover {
+    color: #007cba;
+}
+
+/* Comment Meta */
+.gzseo-cg-comment-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.gzseo-cg-date {
+    color: #666;
+}
+
+/* Status */
+.gzseo-cg-status {
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.gzseo-status-preview {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.gzseo-status-published {
+    background: #c8e6c9;
+    color: #388e3c;
+}
+
+.gzseo-status-draft {
+    background: #ffe0b2;
+    color: #f57c00;
+}
+
+.gzseo-status-scheduled {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
+/* Comment Content */
+.gzseo-cg-comment-content {
+    margin-bottom: 15px;
+}
+
+.gzseo-cg-content-view {
+    line-height: 1.6;
+    color: #444;
+}
+
+.gzseo-cg-content-edit {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+/* Comment Actions */
+.gzseo-cg-comment-actions,
+.gzseo-cg-comment-edit-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.gzseo-cg-comment-actions button,
+.gzseo-cg-comment-edit-actions button {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+/* Publish Options */
+.gzseo-cg-publish-options {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.gzseo-cg-publish-type {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.gzseo-cg-publish-type label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.gzseo-cg-publish-type input[type="radio"] {
+    margin-right: 5px;
+}
+
+.gzseo-cg-publish-type i {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+/* Schedule Fields */
+.gzseo-cg-schedule-fields {
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.gzseo-cg-schedule-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gzseo-cg-schedule-row span {
+    font-size: 13px;
+    color: #666;
+}
+
+.gzseo-cg-schedule-value {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.gzseo-cg-schedule-type {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+}
+
+/* Messages */
+.gzseo-cg-messages {
+    margin-top: 20px;
+}
+
+.gzseo-message {
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.gzseo-message i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.gzseo-message-success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.gzseo-message-error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Loading States */
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .gzseo-cg-row {
+        flex-direction: column;
+    }
+    
+    .gzseo-cg-comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .gzseo-cg-comment-meta {
+        margin-top: 10px;
+    }
+    
+    .gzseo-cg-comment-actions,
+    .gzseo-cg-comment-edit-actions {
+        flex-wrap: wrap;
+    }
+    
+    .gzseo-cg-publish-type {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .gzseo-cg-schedule-row {
+        flex-wrap: wrap;
+    }
+
+	.gzseo-metabox-tabs
+	{
+		overflow-x: auto !important;
+	}
+}
+
+/********************************** select gender css ********************************/
+/* استایل‌های انتخاب جنسیت */
+#gzseo-cg-author-gender {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+#gzseo-cg-author-gender:focus {
+    border-color: #4e4b83;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(78, 75, 131, 0.1);
+}
+
+#gzseo-cg-author-gender option {
+    padding: 5px;
+}
+
+/* آیکون جنسیت در کنار نام نویسنده */
+.gzseo-gender-icon {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.gzseo-gender-icon.male {
+    color: #2196F3;
+}
+
+.gzseo-gender-icon.female {
+    color: #E91E63;
+}
+
+/* استایل برای نمایش جنسیت در لیست کامنت‌ها */
+.gzseo-cg-author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gzseo-cg-author-gender-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.gzseo-cg-author-gender-badge.male {
+    background-color: #E3F2FD;
+    color: #1976D2;
+}
+
+.gzseo-cg-author-gender-badge.female {
+    background-color: #FCE4EC;
+    color: #C2185B;
+}

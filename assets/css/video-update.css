@@ -1,0 +1,1508 @@
+/**
+ * GZSEO Video Update Styles
+ * Modern and attractive design for video update module
+ */
+
+/* Main Wrapper */
+.gzseo-video-update-wrapper {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    /*animation: fadeIn 0.3s ease-in;*/
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Search Section */
+.gzseo-video-search-section {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.gzseo-video-search-form {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.gzseo-video-search-form .gzseo-form-group {
+    flex: 1;
+    margin: 0;
+}
+
+.gzseo-video-search-form label {
+    color: #374151;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+}
+
+.gzseo-video-search-form .gzseo-input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #f9fafb;
+    transition: all 0.3s ease;
+}
+
+.gzseo-video-search-form .gzseo-input:focus {
+    outline: none;
+    border-color: #6366f1;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+#gzseo-search-videos {
+    padding: 12px 24px;
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+#gzseo-search-videos:hover {
+    background: #4f46e5;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+#gzseo-search-videos:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Position Selection - Moved to results section */
+.gzseo-video-position {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.gzseo-video-position label {
+    color: #374151;
+    font-weight: 600;
+    margin: 0;
+}
+
+.gzseo-video-position .gzseo-select {
+    padding: 10px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #fff;
+    min-width: 250px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gzseo-video-position .gzseo-select:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+/* Results Section */
+.gzseo-video-results-section {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.gzseo-video-results-section h4 {
+    color: #1f2937;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Video Controls */
+.gzseo-video-controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.gzseo-video-controls button {
+    padding: 8px 16px;
+    border: 1px solid #d1d5db;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.gzseo-video-controls button:hover {
+    background: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+/* Video Grid */
+.gzseo-video-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* Video Item */
+.gzseo-video-item,
+.gzseo-saved-video-item {
+    background: #f9fafb;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.gzseo-video-item:hover,
+.gzseo-saved-video-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-color: #d1d5db;
+}
+
+.gzseo-video-item.selected {
+    border-color: #6366f1;
+    background: #eef2ff;
+}
+
+/* Video Checkbox */
+.gzseo-video-checkbox {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 2;
+    accent-color: #6366f1;
+}
+
+/* Video Preview */
+.gzseo-video-preview {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background: #e5e7eb;
+}
+
+.gzseo-video-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gzseo-video-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    pointer-events: none;
+}
+
+/* Video Preview Button */
+.gzseo-video-preview-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.gzseo-video-preview-btn:hover {
+    background: rgba(0, 0, 0, 0.85);
+    transform: translate(-50%, -50%) scale(1.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.gzseo-video-preview-btn i {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+/* Video Info */
+.gzseo-video-info {
+    padding: 12px;
+    background: #fff;
+}
+
+.gzseo-video-platform {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.gzseo-video-platform.youtube { 
+    background: #ff0000;
+    color: white; 
+}
+
+.gzseo-video-platform.aparat { 
+    background: #ed145b;
+    color: white; 
+}
+
+.gzseo-video-platform.namasha { 
+    background: #00a8cc;
+    color: white; 
+}
+
+.gzseo-video-platform.tamasha { 
+    background: #ff6b6b;
+    color: white; 
+}
+
+.gzseo-video-platform.ifilo { 
+    background: #4a90e2;
+    color: white; 
+}
+
+/* Video Actions */
+.gzseo-video-actions {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#gzseo-save-videos {
+    background: #10b981;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#gzseo-save-videos:hover:not(:disabled) {
+    background: #059669;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+#gzseo-save-videos:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.gzseo-selected-count {
+    font-weight: 600;
+    color: #6366f1;
+    font-size: 15px;
+}
+
+/* Saved Videos Section */
+.gzseo-saved-videos-section {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.gzseo-saved-videos-section h4 {
+    color: #1f2937;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Saved Videos Grid - Separate from search results */
+.gzseo-saved-videos-grid {
+    margin-bottom: 20px;
+}
+
+/* Remove Video Button - Fixed Position */
+.gzseo-remove-video {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(239, 68, 68, 0.95);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 13px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gzseo-remove-video:hover {
+    background: #dc2626;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(239, 68, 68, 0.3);
+}
+
+.gzseo-remove-video i {
+    font-size: 11px;
+}
+
+#gzseo-remove-all-videos {
+    color: #ef4444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid #ef4444;
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#gzseo-remove-all-videos:hover {
+    background: #fef2f2;
+}
+
+/* Messages */
+.gzseo-message {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    animation: slideDown 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@keyframes slideDown {
+    from { 
+        opacity: 0; 
+        transform: translateY(-10px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.gzseo-success-message {
+    background: #d1fae5;
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+}
+
+.gzseo-error-message {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+}
+
+.gzseo-info-message {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #bfdbfe;
+}
+
+/* Video Popup Modal */
+.gzseo-video-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 99999;
+    animation: fadeIn 0.3s ease;
+}
+
+.gzseo-video-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gzseo-modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90vh;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+    from { 
+        opacity: 0; 
+        transform: scale(0.9); 
+    }
+    to { 
+        opacity: 1; 
+        transform: scale(1); 
+    }
+}
+
+.gzseo-modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.gzseo-modal-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(90deg);
+}
+
+.gzseo-modal-video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.gzseo-modal-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Loading State */
+.gzseo-loading {
+    text-align: center;
+    padding: 60px;
+}
+
+.gzseo-loading i {
+    font-size: 32px;
+    color: #667eea;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gzseo-video-search-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .gzseo-video-search-form .gzseo-form-group {
+        width: 100%;
+    }
+    
+    #gzseo-search-videos {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .gzseo-video-results {
+        grid-template-columns: 1fr;
+    }
+    
+    .gzseo-video-position {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .gzseo-video-position .gzseo-select {
+        width: 100%;
+    }
+    
+    .gzseo-video-actions {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    
+    #gzseo-save-videos {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .gzseo-modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+}
+
+.gzseo-saved-videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* نشانگر آپدیت دسته جمعی */
+.gzseo-bulk-indicator {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff9800;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.gzseo-bulk-indicator i {
+    font-size: 12px;
+}
+
+/* استایل برای آیتم‌های bulk */
+.gzseo-saved-video-item.bulk-generated {
+    border: 2px solid #ff9800;
+    position: relative;
+}
+
+.gzseo-saved-video-item.bulk-generated::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 152, 0, 0.05);
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+/* انیمیشن برای نشانگر */
+.gzseo-bulk-indicator {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Tooltip برای نشانگر */
+.gzseo-bulk-indicator {
+    cursor: help;
+    /*position: relative;*/
+}
+
+.gzseo-bulk-indicator:hover::after {
+    content: 'این ویدیو به صورت خودکار با آپدیت دسته جمعی تولید شده است';
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.gzseo-bulk-indicator:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 20px;
+    margin-bottom: -5px;
+    border: 5px solid transparent;
+    border-top-color: #333;
+}
+
+/* در لیست ویدیوها در حالت grid */
+.gzseo-saved-videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gzseo-saved-video-item {
+    position: relative;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.gzseo-saved-video-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* نشان دادن نوع ویدیو در footer آیتم */
+.gzseo-video-info {
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gzseo-saved-video-item.bulk-generated .gzseo-video-info {
+    background: #fff3e0;
+}
+
+/* اضافه کردن متن کوچک برای ویدیوهای bulk */
+.gzseo-saved-video-item.bulk-generated .gzseo-video-info::after {
+    content: 'Bulk';
+    font-size: 10px;
+    color: #ff9800;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/*********************************** استایل های اپدیت محتوای ویدیویی دسته بندی ها ********************************/
+/* =================================
+   GZSEO Video Update Styles
+   ================================= */
+
+/* Main Wrapper */
+.gzseo-video-update-wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* AI Login Notice */
+.gzseo-ai-login-notice {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gzseo-ai-login-notice i {
+    font-size: 48px;
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+
+.gzseo-ai-login-notice p {
+    margin: 15px 0;
+    color: #856404;
+    font-size: 14px;
+}
+
+.gzseo-ai-login-notice .button-primary {
+    margin-top: 10px;
+}
+
+/* Search Section */
+.gzseo-video-search-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.gzseo-video-search-form {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.gzseo-form-group {
+    flex: 1;
+}
+
+.gzseo-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.gzseo-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.gzseo-input:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+}
+
+/* Results Section */
+.gzseo-video-results-section {
+    margin: 30px 0;
+}
+
+.gzseo-video-results-section h4 {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gzseo-video-results-section h4:before {
+    content: "\f03d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #2196f3;
+}
+
+.gzseo-video-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gzseo-video-result-item {
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.gzseo-video-result-item:hover {
+    border-color: #2196f3;
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.15);
+    transform: translateY(-2px);
+}
+
+.gzseo-video-result-item.selected {
+    border-color: #4caf50;
+    background: #f1f8f4;
+}
+
+.gzseo-video-checkbox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.gzseo-video-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.gzseo-video-preview-thumb {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.gzseo-video-preview-thumb iframe {
+    width: 100%;
+    height: 160px;
+    border: none;
+}
+
+.gzseo-video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gzseo-video-platform {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gzseo-video-platform.youtube {
+    background: #ff0000;
+    color: #fff;
+}
+
+.gzseo-video-platform.aparat {
+    background: #00a8e8;
+    color: #fff;
+}
+
+.gzseo-video-platform.namasha {
+    background: #6c5ce7;
+    color: #fff;
+}
+
+.gzseo-video-platform.tamasha {
+    background: #fd79a8;
+    color: #fff;
+}
+
+.gzseo-video-platform.ifilo {
+    background: #00b894;
+    color: #fff;
+}
+
+/* Video Position Selector */
+.gzseo-video-position {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.gzseo-video-position label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.gzseo-select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.gzseo-select:focus {
+    outline: none;
+    border-color: #2196f3;
+}
+
+/* Video Actions */
+.gzseo-video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #e3f2fd;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.gzseo-selected-count {
+    font-size: 14px;
+    color: #1976d2;
+    font-weight: 600;
+}
+
+/* Saved Videos Section */
+.gzseo-saved-videos-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.gzseo-saved-videos-section h4 {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gzseo-saved-videos-section h4:before {
+    content: "\f0c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #4caf50;
+}
+
+.gzseo-saved-videos-taxonomy {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gzseo-saved-video-item {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+}
+
+.gzseo-saved-video-item.bulk-generated {
+    border-left: 4px solid #ff9800;
+}
+
+.gzseo-saved-video-item.manual {
+    border-left: 4px solid #2196f3;
+}
+
+.gzseo-saved-video-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.gzseo-saved-video-type {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.gzseo-saved-video-type i {
+    font-size: 14px;
+}
+
+.gzseo-saved-video-type.bulk i {
+    color: #ff9800;
+}
+
+.gzseo-saved-video-type.manual i {
+    color: #2196f3;
+}
+
+.gzseo-saved-video-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.gzseo-video-action-btn {
+    padding: 6px 10px;
+    border: none;
+    background: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.gzseo-video-action-btn:hover {
+    background: #e0e0e0;
+}
+
+.gzseo-video-action-btn.preview {
+    color: #2196f3;
+}
+
+.gzseo-video-action-btn.remove {
+    color: #f44336;
+}
+
+.gzseo-saved-video-preview {
+    margin-top: 10px;
+}
+
+.gzseo-saved-video-preview iframe {
+    width: 100%;
+    height: 180px;
+    border-radius: 4px;
+}
+
+/* Video Modal */
+.gzseo-video-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 999999;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gzseo-video-modal.active {
+    display: flex;
+}
+
+.gzseo-modal-content {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.gzseo-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    z-index: 10;
+}
+
+.gzseo-modal-close:hover {
+    background: #d32f2f;
+    transform: rotate(90deg);
+}
+
+.gzseo-modal-video {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.gzseo-modal-video iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+/* Bulk Videos Notice */
+.gzseo-bulk-videos-notice {
+    background: #fff3e0;
+    border: 1px solid #ff9800;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.gzseo-notice-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.gzseo-notice-header i {
+    color: #ff9800;
+    font-size: 24px;
+}
+
+.gzseo-notice-header h4 {
+    margin: 0;
+    color: #e65100;
+    font-size: 16px;
+}
+
+.gzseo-bulk-videos-notice p {
+    margin: 10px 0;
+    color: #5d4037;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Bulk Videos List */
+.gzseo-bulk-videos-list {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.gzseo-bulk-video-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.gzseo-bulk-video-item:last-child {
+    border-bottom: none;
+}
+
+.gzseo-bulk-video-item.active {
+    background: #e8f5e9;
+}
+
+.gzseo-bulk-video-item.inactive {
+    background: #fafafa;
+    opacity: 0.7;
+}
+
+.gzseo-video-status {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Toggle Switch */
+.gzseo-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.gzseo-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.gzseo-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+
+.gzseo-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .gzseo-slider {
+    background-color: #4caf50;
+}
+
+input:checked + .gzseo-slider:before {
+    transform: translateX(26px);
+}
+
+.gzseo-slider:hover {
+    box-shadow: 0 0 1px #4caf50;
+}
+
+.gzseo-status-text {
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+    min-width: 60px;
+}
+
+/* Video Info in Bulk List */
+.gzseo-bulk-video-item .gzseo-video-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gzseo-preview-bulk-video,
+.gzseo-preview-taxonomy-bulk-video {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gzseo-preview-bulk-video:hover,
+.gzseo-preview-taxonomy-bulk-video:hover {
+    background: #f0f0f0;
+    border-color: #bbb;
+}
+
+.gzseo-preview-bulk-video i,
+.gzseo-preview-taxonomy-bulk-video i {
+    color: #2196f3;
+}
+
+/* Bulk Video Stats */
+.gzseo-bulk-video-stats {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+}
+
+.gzseo-bulk-video-stats span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gzseo-active-count,
+.gzseo-taxonomy-active-count {
+    color: #4caf50;
+    font-weight: 700;
+}
+
+/* Video Legend */
+.gzseo-video-legend {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.gzseo-video-legend h5 {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+.gzseo-legend-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gzseo-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #666;
+}
+
+.gzseo-legend-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.gzseo-legend-icon.manual {
+    background: #e3f2fd;
+    color: #2196f3;
+}
+
+.gzseo-legend-icon.bulk {
+    background: #fff3e0;
+    color: #ff9800;
+}
+
+/* Loading State */
+.gzseo-video-loading {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+}
+
+.gzseo-video-loading i {
+    font-size: 32px;
+    color: #2196f3;
+    margin-bottom: 10px;
+}
+
+/* Empty State */
+.gzseo-no-videos {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+}
+
+.gzseo-no-videos i {
+    font-size: 48px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gzseo-video-search-form {
+        flex-direction: column;
+    }
+    
+    .gzseo-video-results {
+        grid-template-columns: 1fr;
+    }
+    
+    .gzseo-saved-videos {
+        grid-template-columns: 1fr;
+    }
+    
+    .gzseo-video-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .gzseo-bulk-video-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .gzseo-bulk-video-item .gzseo-video-info {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .gzseo-legend-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .gzseo-modal-video iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gzseo-video-update-wrapper {
+        padding: 15px;
+    }
+    
+    .gzseo-video-search-section {
+        padding: 15px;
+    }
+    
+    .gzseo-modal-content {
+        padding: 15px;
+    }
+    
+    .gzseo-modal-video iframe {
+        height: 250px;
+    }
+}
+
+/* Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gzseo-video-results-section,
+.gzseo-saved-videos-section {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Buttons */
+.button-primary i {
+    margin-right: 5px;
+}
+
+/* Scrollbar Styling */
+.gzseo-video-results::-webkit-scrollbar,
+.gzseo-saved-videos::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.gzseo-video-results::-webkit-scrollbar-track,
+.gzseo-saved-videos::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.gzseo-video-results::-webkit-scrollbar-thumb,
+.gzseo-saved-videos::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.gzseo-video-results::-webkit-scrollbar-thumb:hover,
+.gzseo-saved-videos::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
